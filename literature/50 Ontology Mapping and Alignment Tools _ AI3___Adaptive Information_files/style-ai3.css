@@ -1,0 +1,527 @@
+/*
+Theme Name: Adaptive Information
+Theme URI: http://mkbergman.com/theme/
+Description: Wolfpack theme from MK Bergman's 'Adaptive Information' (AI3)
+Version: 3.0 Released 21 August 2013; includes CSS Usage to remove unused styles
+Author: Michael K. Bergman
+Author URI: http://mkbergman.com/
+*/
+
+body {
+color:#000;
+background:#fff;
+font:12px verdana,arial,helvetica,sans-serif;
+padding:0;
+}
+
+#secondary {
+margin: 6px 0 1.5em 0;
+}
+
+.alt {
+background:#f2f2f2;
+}
+
+.site-content {
+margin:0 1.5em;
+}
+
+p {
+font:12px verdana,arial,helvetica,sans-serif;
+margin:0 0 15px;
+padding:2px;
+}
+
+table {
+font:12px verdana,arial,helvetica,sans-serif;
+}
+
+.SeparatorBar {
+border:1px solid #be7678;
+width:80%;
+text-align:center;
+margin:auto;
+padding:0;
+}
+
+a {
+color: #004182;
+font-size:100%;
+font-family:verdana,arial,helvetica,sans-serif;
+text-decoration:none;
+background:transparent;
+}
+
+/*
+a:link {
+color: #004182;
+text-decoration:none;
+}
+*/
+
+a:hover {
+color:#5e0000;
+text-decoration:underline;
+}
+
+.Panel a:link ,.Panel a:visited ,.Panel a:active { 
+text-decoration:none;
+color:#5e0000;
+}
+
+.Panel a:hover,.CalendarPanel a:hover {
+text-decoration:underline;
+}
+
+li {
+margin:6px 0;
+}
+
+ul {
+padding-left:24px;
+margin-left:24px;
+list-style-type:square;
+}
+
+.Panel ul {
+padding-left:3px;
+margin-left:3px;
+list-style-type:none;
+}
+
+h1 {
+font-family:verdana,arial,helvetica,sans-serif;
+font-weight:700;
+text-align:left;
+font-size:170%;
+color:#004182;
+margin:18px 0 15px;
+}
+
+h2 {
+text-align:left;
+font-size:1.3em;
+font-weight:700;
+color:#5e0000;
+margin:18px 0 15px;
+}
+
+h3 {
+text-align:left;
+font-weight:700;
+margin:18px 0 9px 30px;
+}
+
+h4 {
+text-align:left;
+font-weight:700;
+font-style:italic;
+text-decoration:underline;
+margin:18px 0 9px 50px;
+}
+
+h5 {
+text-align:left;
+font-weight:700;
+font-size:1em;
+margin:18px 0 9px 70px;
+}
+
+h6 {
+font-size:1.3em;
+font-weight:500;
+border:1px solid #eee;
+color:#777;
+background:#eee;
+margin:0 0 3px;
+padding:2px 16px 2px 10px;
+}
+
+.dateBar {
+0padding:4px 10px 4px 10px;
+text-align:right;
+font-size:12px;
+font-weight:700;
+vertical-align:middle;
+color:#5e0000;
+position:relative;
+width:auto;
+height:26px;
+min-width:120px;
+background:#eee;
+z-index:3;
+border-bottom:1px solid #bbb;
+margin:6px 0 0;
+}
+
+.dateBar-text {
+color:#5e0000;
+margin:8px;
+}
+
+.content-indent {
+margin:0 50px 0 16px;
+}
+
+.WidePanel {
+color:#333;
+background:#fff;
+margin:10px 20px 10px 220px;
+padding:10px;
+}
+
+.MainPanel {
+position:relative;
+width:auto;
+min-width:120px;
+color:#333;
+background:#fff;
+z-index:1;
+margin:10px 230px 10px 220px;
+padding:10px;
+}
+
+.storyTitle {
+margin:0 0 5px;
+}
+
+.PostTitle {
+margin:0 0 25px;
+}
+
+.CommentIntro {
+font-family:verdana,arial,helvetica,sans-serif;
+font-weight:700;
+color:#5e0000;
+margin:10px 0;
+}
+
+.storyContent {
+color:#333;
+background:#fff;
+font-size:12px;
+font-family:verdana,arial,helvetica,sans-serif;
+}
+
+.Panel {
+width:190px;
+position:absolute;
+z-index:1;
+}
+
+.PanelBox {
+position:relative;
+}
+
+.PanelBody {
+font-size:80%;
+border:1px solid #eee;
+color:#414141;
+background:#fcfcfc;
+margin:0 0 20px;
+padding:3px;
+}
+
+.PanelCenter {
+font-size:80%;
+text-align:center;
+border:1px solid #eee;
+color:#414141;
+background:#fcfcfc;
+margin:3px 0 20px;
+padding:3px;
+}
+
+.PanelFooter {
+font-size:80%;
+text-align:center;
+margin-top:16px;
+}
+
+.searchPage {
+color:#5e0000;
+}
+
+.searchHighlight {
+border:1px dotted #004182;
+color:#5e0000;
+background:#fcfcfc;
+font-weight:700;
+}
+
+.searchDate {
+margin-left:30px;
+font-size:.8em;
+font-weight:700;
+color:#5e0000;
+}
+
+.searchTitle {
+margin-left:3px;
+}
+
+.searchExcerpt {
+font-size:1em;
+margin:0 0 -10px 10px;
+}
+
+.searchMetadata {
+font-size:.8em;
+border-bottom:1px solid #eee;
+margin:0 0 16px;
+padding:0 0 10px 30px;
+}
+
+#searchform #s {
+width:176px;
+margin-bottom:4px;
+}
+
+#searchform #searchsubmit {
+width:auto;
+}
+
+.boxGreenDotted {
+background-color:#ebf8e2;
+border:1px dotted #71c837;
+vertical-align:middle;
+margin:15px 60px;
+padding:8px;
+}
+
+.boxYellowDotted {
+background-color:#ffc;
+border:1px dotted #ff0;
+vertical-align:middle;
+margin:15px 60px;
+padding:8px;
+}
+
+.boxGrayDotted {
+background-color:#eee;
+border:1px dotted #aaa;
+vertical-align:middle;
+margin:15px 60px;
+padding:8px;
+}
+
+.boxBrownDotted {
+background-color:#f5f5dc;
+border:1px dotted #a0522d;
+vertical-align:middle;
+margin:15px 80px;
+padding:8px;
+}
+
+.CalendarPanel {
+font-size:80%;
+border:1px solid #eee;
+color:#414141;
+background:#fff;
+margin:0 0 20px;
+padding:5px 5px 5px 22px;
+}
+
+.schemaBox {
+font-size:80%;
+background-color:#eee;
+border:1px dotted #aaa;
+margin:15px 60px;
+padding:0 8px 8px;
+overflow:hidden;
+}
+
+.schemaKey {
+clear: both;
+float: left;
+margin-top: 8px;
+width: 22%;
+display:inline;
+font-weight: bold;
+}
+
+.schemaValue {
+float: right;
+width: 76%;
+margin-top: 8px;
+}
+
+blockquote {
+color:#333;
+background:#f2f2f2;
+margin:10px;
+padding:4px;
+}
+
+.sTable li {
+margin:0 0 6px;
+}
+
+.sTable ul {
+padding-left:3px;
+list-style-type:square;
+margin:0 0 0 10px;
+}
+
+.page_item {
+font-weight:700;
+}
+
+img {
+position:relative;
+border-style:none;
+padding:4px;
+}
+
+.center_ok {
+display:block;
+margin:10px auto;
+}
+
+.double_u {
+border-bottom:3px double;
+font-style:italic;
+}
+
+pre {
+font:12px fixed,courier,serif;
+}
+
+#feeds_button {
+width:92px;
+height:17px;
+text-align:left;
+font-size:10px;
+padding-left:15px;
+padding-top:1px;
+padding-bottom:0;
+color:#fff;
+background:url(http://www.mkbergman.com/wp-content/plugins/wordpress-feed-statistics/images/feedstats.png) no-repeat;
+margin-bottom:2px;
+}
+
+#masthead {
+width: 100%;
+}
+
+#masthead-container {
+position: relative;
+height: 145px;
+border-bottom: 1px solid #ffffff;
+}
+
+.masthead-content {
+float: left;
+min-width: 20%;
+}
+
+#masthead-a {
+margin-top: 8px;
+max-width: 310px;
+}
+
+#masthead-b {
+font-family:verdana,arial,sans-serif;
+font-weight:700;
+font-size:9em;
+color:#5e0000;
+text-align: center;
+margin-left: 6px;
+max-width: 210px;
+}
+
+#masthead-c {
+margin-top: 35px;
+font-weight:700;
+font-size:1.5em;
+text-align: center;
+max-width: 240px;
+}
+
+#masthead-d {
+margin-top: 32px;
+font-size: 0.8em;
+color: #C46666;
+text-align: center;
+max-width: 25%;
+float: right;
+}
+
+.social-button-container {
+margin: 8px 0 6px 8px;
+}
+
+.chicklet {
+background-repeat: no-repeat;
+display: inline-block;
+font-family: Verdana,Helvetica,sans-serif;
+font-size: 9px;
+height: 16px;
+line-height: 16px;
+padding-left: 20px;
+padding-right: 3px;
+white-space: nowrap;
+}
+
+.imgFacebook {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/facebook_16.png");
+background-repeat: no-repeat;
+}
+
+.imgTwitter {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/twitter_16.png");
+}
+
+.imgGoogleplus {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/googleplus_16.png");
+}
+
+.imgPinterest {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/pinterest_16.png");
+}
+
+.imgInstagram {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/instagram_16.png");
+}
+
+.imgStumbleUpon {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/stumbleupon_16.png");
+}
+
+.imgReddit {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/reddit_16.png");
+}
+
+.imgMendeley {
+background-image: url("http://www.mkbergman.com/wp-content/themes/ai3v2/images/chicklets/mendeley_16.png");
+}
+
+table.stdtable { 
+border: 1px solid #000;
+margin: 10px auto;
+}
+
+table.stdtable > tr > th, table.stdtable > tr > td, table.stdtable > * > tr > th, table.stdtable > * > tr > td {
+border: 1px solid #000;
+padding: 0.4em 0.4em;
+}
+
+table.stdtable > tr > th, table.stdtable > * > tr > th {
+background-color: #ffffcc;
+text-align: center;
+vertical-align:middle;
+}
+
+table.borderTable { 
+margin: 10px auto;
+}
+
+table.borderTable > tr > th, table.borderTable > tr > td, table.borderTable > * > tr > th, table.borderTable > * > tr > td {
+border: 1px solid #aaa;
+padding: 0.4em 0.4em;
+}
+
+table.borderTable > tr > th, table.borderTable > * > tr > th {
+text-align: center;
+vertical-align:middle;
+}

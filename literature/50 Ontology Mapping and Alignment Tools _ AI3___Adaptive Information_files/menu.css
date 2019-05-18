@@ -1,0 +1,178 @@
+  #sdMenu, #sdMenu * {}
+  #sdMenu {
+      bottom: -400px;
+      font: 300 0.87em "Helvetica Neue",sans-serif;
+      position: fixed;
+      right: 10px;
+      z-index: 999999;
+  }
+ 
+  .loggedout-follow-typekit {
+      margin-right: 4.5em;
+  }
+ 
+  #sdMenu a.bsub {
+      background-color: #211c21;
+      background-image: -moz-linear-gradient(center bottom , #3F3F3F, #211c21 5px);
+      border: 0 none;
+      box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+      color: #CCCCCC;
+      display: block;
+      float: right;
+      font: 13px/28px "Helvetica Neue",sans-serif;
+      letter-spacing: normal;
+      outline-style: none;
+      outline-width: 0;
+      overflow: hidden;
+      padding: 4px 8px 3px 0;
+      text-decoration: none !important;
+      text-shadow: 0 -1px 0 #444444;
+      width: 120px;
+  }
+ 
+  #sdMenu a.bsub {
+      border-radius: 8px 8px 0 0;
+    margin-top: -13px;
+  }
+ 
+  #sdMenu a.bsub span {
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-color: transparent;
+      background-origin: padding-box;
+      background-position: 2px 3px;
+      background-repeat: no-repeat;
+      background-size: 20% auto;
+      padding-left: 2px;
+  }
+ 
+  #sdMenu a:hover span, #sdMenu a.bsub.open span {
+      /*background-position: 0 -117px;*/
+      color: #FFFFFF !important;
+  }
+ 
+  #sdMenu a.bsub.open {
+      background: none repeat scroll 0 0 #464646;
+  }
+ 
+  #sdMenusubscribe {
+      background: none repeat scroll 0 0 #464646;
+      border-radius: 2px 0 0 0;
+      color: #FFFFFF;
+      margin-top: 17px;
+      padding: 15px;
+      width: 980px;
+    text-align: left;
+  }
+ 
+  div#sdMenusubscribe.open {
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  }
+ 
+  #sdMenusubscribe div {
+      overflow: hidden;
+  }
+ 
+  #sdMenu h3, #sdMenu #sdMenusubscribe h3 {
+      color: #8CC63F;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      margin: 0 0 0.5em !important;
+    padding: 5px;
+      text-align: left;
+      text-shadow: 0 1px 0 #333333;
+  }
+ 
+  #sdMenu #sdMenusubscribe p a {
+      color: #FFFFFF;
+      font: 300 0.87em "Helvetica Neue",Helvetica,Arial,sans-serif;
+      margin: 0 0 1em;
+      text-shadow: 0 1px 0 #333333;
+  }
+ 
+  #sdMenusubscribe p a {
+      margin: 10px 0 0;
+  }
+ 
+  #sdMenu #sdMenusubscribe p.sdMenu-follow-count {
+      font-size: 11px;
+  }
+  
+  #sdMenusubscribe a {
+      color: #F78E30;
+      text-decoration: none;
+  }
+ 
+   #sdMenusubscribe a:hover {
+      color: #C5CFCF;
+      text-decoration: underline;
+  }
+  
+   #sdMenusubscribe ul {
+      margin: 6px;
+  }
+  
+  #sdMenusubscribe input[type="submit"] {
+      -moz-transition: all 0.25s ease-in-out 0s;
+      background: -moz-linear-gradient(center top , #333333 0%, #111111 100%) repeat scroll 0 0 transparent;
+      border: 1px solid #282828;
+      border-radius: 11px 11px 11px 11px;
+      box-shadow: 0 1px 0 #444444 inset;
+      color: #CCCCCC;
+      padding: 2px 20px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #000000;
+  }
+ 
+  #sdMenusubscribe input[type="submit"]:hover {
+      background: -moz-linear-gradient(center top , #333333 0%, #222222 100%) repeat scroll 0 0 transparent;
+      box-shadow: 0 1px 0 #4F4F4F inset;
+      color: #FFFFFF;
+      text-decoration: none;
+  }
+ 
+  #sdMenusubscribe input[type="submit"]:active {
+      background: -moz-linear-gradient(center top , #111111 0%, #222222 100%) repeat scroll 0 0 transparent;
+      box-shadow: 0 -1px 0 #333333 inset;
+      color: #AAAAAA;
+      text-decoration: none;
+  }
+ 
+  #sdMenusubscribe input[type="text"] {
+      border-radius: 3px 3px 3px 3px;
+      font: 300 15px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+ 
+  #sdMenusubscribe input[type="text"]:focus {
+      border: 1px solid #000000;
+  }
+ 
+  #sdMenusubscribe.open {
+      display: block;
+  }
+ 
+  #bsub-subscribe-button {
+      margin: 0 auto;
+      text-align: center;
+  }
+ 
+  #sdMenusubscribe #bsub-credit {
+      border-top: 1px solid #3C3C3C;
+      font: 11px "Helvetica Neue",sans-serif;
+      margin: 0 0 -15px;
+      padding: 7px 0;
+      text-align: center;
+  }
+ 
+  #sdMenusubscribe #bsub-credit a {
+      background: none repeat scroll 0 0 transparent;
+      color: #AAAAAA;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #262626;
+  }
+ 
+  #sdMenusubscribe #bsub-credit a:hover {
+      background: none repeat scroll 0 0 transparent;
+      color: #FFFFFF;
+  }

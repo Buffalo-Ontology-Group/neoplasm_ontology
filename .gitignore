@@ -1,0 +1,9 @@
+*.[oa]
+*~
+.DS_Store
+.idea
+*.abcl
+*.pyc
+.idea
+.env
+credentials.txt

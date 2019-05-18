@@ -1,0 +1,103 @@
+@page  {}
+@media print
+{
+#beta-banner {
+	display: none !important;
+}
+#login-link {
+	display: none !important;
+}
+#loginStatus {
+	display: none !important;
+}
+#linkToSubmission {
+	display: none !important;
+}
+#publisherFooter {
+	display: none !important;
+}
+#membership-message-loader {
+	display: none !important;
+}
+.Main_sidebar {
+	display: none !important;
+}
+.Masthead_right {
+	display: none !important;
+}
+.Ad {
+	display: none !important;
+}
+.Sitehead {
+	display: none !important;
+}
+.Identity_nav {
+	display: none !important;
+}
+.Occurrences {
+	display: none !important;
+}
+.ResultsList_formatList {
+	display: none !important;
+}
+.Btn {
+	display: none !important;
+}
+.BackToTop {
+	display: none !important;
+}
+.Container {
+	padding-left: 0px !important; margin-left: 0px !important;
+}
+#header-logo {
+	padding-left: 0px !important; margin-left: 0px !important;
+}
+.Identity::before {
+	height: auto !important;
+}
+.Identity_plate {
+	background-color: transparent !important;
+}
+.Identity_title {
+	color: rgb(0, 0, 0) !important;
+}
+.Identity {
+	margin: 0px !important; padding: 0px !important; border: 0px currentColor !important; border-image: none !important; min-height: 0px !important;
+}
+.Identity_plate {
+	margin: 0px !important; padding: 0px !important; border: 0px currentColor !important; border-image: none !important; min-height: 0px !important;
+}
+.Featured {
+	margin: 0px !important; padding: 0px !important; border: 0px currentColor !important; border-image: none !important; min-height: 0px !important;
+}
+body {
+	margin: 0px !important; padding: 0px !important; border: 0px currentColor !important; border-image: none !important; min-height: 0px !important;
+}
+.Identity {
+	background: none !important;
+}
+.Identity::before {
+	background: none !important;
+}
+body {
+	overflow: visible !important;
+}
+h1 {
+	overflow: visible !important;
+}
+h2 {
+	overflow: visible !important;
+}
+h3 {
+	overflow: visible !important;
+}
+ol {
+	overflow: visible !important;
+}
+ul {
+	overflow: visible !important;
+}
+div {
+	overflow: visible !important;
+}
+}
