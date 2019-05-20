@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/npo/ncit_ovarian_neoplasm_import.owl" uri="imports/ncit_ovarian_neoplasm_no_axioms_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2019-02-21/bfo.owl" uri="imports/bfo_classes_only_import.owl"/>
+    <group id="imports" prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/bfo_classes_only_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/npo/iao_import.owl" uri="imports/iao_import.owl"/>
+        <uri name="http://purl.obolibary.org/obo/npo/ncbi_import.owl" uri="imports/ncbi_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/npo/ogms_import.owl" uri="imports/ogms_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/npo/ontology-metadata_import.owl" uri="imports/ontology-metadata_import.owl"/>
+        <uri name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="imports/protege-dc_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/npo/uberon_import.owl" uri="imports/uberon_import.owl"/>
+    </group>
+</catalog>

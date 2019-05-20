@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="imports" prefer="public" xml:base="">
+    		<uri name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo_classes_only_import.owl" />	 
+        <uri name="http://purl.obolibrary.org/obo/npo/ontology-metadata_import.owl" uri="ontology-metadata_import.owl"/>
+        <uri name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="protege-dc_import.owl" />
+    </group>
+</catalog>
