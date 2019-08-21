@@ -3,6 +3,8 @@
      xml:base="http://purl.obolibrary.org/obo/npo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:pr="http://purl.obolibrary.org/obo/pr#"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,6 +12,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cito="http://purl.org/spar/cito/"
      xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -24,7 +27,9 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:cellline="http://www.ebi.ac.uk/cellline/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/npo.owl">
         <owl:imports rdf:resource="http://purl.obolibary.org/obo/npo/disease_ontology_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-02-21/bfo.owl"/>
@@ -157,6 +162,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A disorder that results from dysregulation of cell proliferation (uncontrolled cell proliferation).</obo:IAO_0000115>
+        <obo:IAO_0000116>Bill Duncan:
+OGMS call on 2019-08-21 suggests definition:
+A “tissue” disorder that “has” resulted from a dysregulation of cell proliferation “leading to a net increase in mass”.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-17T03:21:29Z</dc:date>
         <rdfs:label xml:lang="en">neoplasm</rdfs:label>
