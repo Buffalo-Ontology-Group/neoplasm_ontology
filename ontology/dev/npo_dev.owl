@@ -122,6 +122,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage">
+        <obo:IAO_0000115>A relation between a clinical finding and a TNM stage that signifies the extent of the tumor, node, or metastasis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T20:08:10Z</dc:date>
+        <rdfs:label>has TNM stage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -172,6 +183,19 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C4984">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0000001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C7830 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7830">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/npo.owl#T2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -501,6 +525,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/npo.owl#T0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A clinical finding that is about ovarian cancer.</obo:IAO_0000115>
         <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
         <rdfs:label>clinical finding about ovarian cancer</rdfs:label>
@@ -1995,7 +2025,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:37:13Z</dc:date>
-        <rdfs:label>T1</rdfs:label>
+        <rdfs:label>T1 cancer stage</rdfs:label>
     </owl:Class>
     
 
@@ -2006,7 +2036,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T19:27:41Z</dc:date>
-        <rdfs:label>T2</rdfs:label>
+        <rdfs:label>T2 cancer stage</rdfs:label>
     </owl:Class>
     
 
