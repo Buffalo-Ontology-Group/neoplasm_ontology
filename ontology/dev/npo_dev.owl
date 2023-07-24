@@ -2000,6 +2000,17 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     
 
 
+    <!-- http://purl.obolibrary.org/obo/npo.owl#T2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#T2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T19:27:41Z</dc:date>
+        <rdfs:label>T2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/npo.owl#brain_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#brain_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
