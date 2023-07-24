@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/npo.owl#"
      xml:base="http://purl.obolibrary.org/obo/npo.owl"
+     xmlns:cl="http://purl.obolibrary.org/obo/cl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:pr="http://purl.obolibrary.org/obo/pr#"
@@ -32,12 +33,30 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/npo.owl">
         <owl:imports rdf:resource="http://purl.obolibary.org/obo/npo/disease_ontology_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-02-21/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ccl/releases/2017-11-15/ccl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/npo/ncit_ovarian_neoplasm_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/npo/ogms_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/npo/uberon_import.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
     
 
 
@@ -114,6 +133,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0001063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001063"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_162 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_162">
@@ -123,6 +148,258 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C128081 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C128081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C128106 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C128106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C4984 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C4984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0000001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8083 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8084 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8085 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8086 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8723 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8724 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8725 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8726 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8727 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8728 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8729 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8730 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8730">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001007"/>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8731 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001007"/>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8732 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8732">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001007"/>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8733 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8733">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001007"/>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8734 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8735 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8736 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8736">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8737 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8738 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001005"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8739 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8740 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8741 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8742 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001004"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8743 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8744 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8745 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C8746 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C8746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001006"/>
     </rdf:Description>
     
 
@@ -138,7 +415,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A pathological bodily process during which cell proliferation occurs at a level not normal for that cell type in its native context.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
+        <obo:IAO_0000117>Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-17T02:50:05Z</dc:date>
         <rdfs:label xml:lang="en">dysregulation of cell proliferation</rdfs:label>
     </owl:Class>
@@ -165,7 +442,7 @@
         <obo:IAO_0000116>Bill Duncan:
 OGMS call on 2019-08-21 suggests definition:
 A “tissue” disorder that “has” resulted from a dysregulation of cell proliferation “leading to a net increase in mass”.</obo:IAO_0000116>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
+        <obo:IAO_0000117>Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-17T03:21:29Z</dc:date>
         <rdfs:label xml:lang="en">neoplasm</rdfs:label>
     </owl:Class>
@@ -183,7 +460,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A neoplasm that has acquired the disposition to invade surrounding tissues and spread to remote anatomical sites.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
+        <obo:IAO_0000117>Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-17T03:21:47Z</dc:date>
         <rdfs:label xml:lang="en">malignant neoplasm</rdfs:label>
     </owl:Class>
@@ -195,7 +472,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0000002"/>
         <obo:IAO_0000115>A malignant neoplasm that is found in the site where the malignant cells first began proliferating.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
+        <obo:IAO_0000117>Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-17T03:22:03Z</dc:date>
         <rdfs:label xml:lang="en">primary neoplasm</rdfs:label>
     </owl:Class>
@@ -213,9 +490,1480 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A malignant neoplasm that develops from a primary neoplasm.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
+        <obo:IAO_0000117>Bill Duncan (https://orcid.org/0000-0001-9625-1899)</obo:IAO_0000117>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-17T03:22:11Z</dc:date>
         <rdfs:label xml:lang="en">secondary neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding that is about ovarian cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>clinical finding about ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about the ovarian germ cell tumor stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian germ cell tumor stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about an ovarian dysgerminoma stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian dysgerminoma stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about an ovarian embryonal carcinoma stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian embryonal carcinoma stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about an ovarian polyembryoma stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian polyembryoma stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about an ovarian yolk sac tumor stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian yolk sac tumor stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about an ovarian teratoma cancer stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian teratoma stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is about an ovarian choriocarcinoma stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian choriocarcinoma stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality that inheres in a patient who has experienced a disease  course with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>disease outcome quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001008"/>
+        <obo:IAO_0000115>A disease outcome quality that inheres in a patient who has experienced a cancer  with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>disease outcome quality due to cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001009"/>
+        <obo:IAO_0000115>A disease outcome quality due to cancer that inheres in a patient who has experienced an ovarian cancer  with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>disease outcome quality due to ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001010"/>
+        <obo:IAO_0000115>A disease outcome quality due to ovarian cancer in which the patient shows disregulation in the reproductive hormone system following that there is one or more hormones in abnormal levels due to an ovarian cancer course with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://my.clevelandclinic.org/health/diseases/22673-hormonal-imbalance</dc:source>
+        <rdfs:label>disregulated reproductive hormone system due to ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001009"/>
+        <obo:IAO_0000115>A disease outcome quality due to cancer in which there is a decrease inmune system function due to the reduction of the infection-fighting white blood cells in a patient who has experienced a cancer with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cdc.gov/cancer/preventinfections/patients.htm#:~:text=weakened%20immune%20system.-,People%20with%20cancer%20who%20are%20treated%20with%20chemotherapy%20are%20more,your%20body%20to%20fight%20infections.</dc:source>
+        <rdfs:label>decreased inmune system function due to cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001086"/>
+        <obo:IAO_0000115>An infertility disorder in which a patient&apos;s fertility is lost or a patient is unable to conceive or carry a pregnancy to term following a disease course with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001013"/>
+        <obo:IAO_0000115>An infertility due to disease in which a patient&apos;s fertility is lost or a patient is unable to conceive or carry a pregnancy to term following a cancer disease course with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001014"/>
+        <obo:IAO_0000115>An infertility due to cancer in which a patient&apos;s fertility is lost or a patient is unable to conceive or carry a pregnancy to term following an ovarian cancer disease course with or without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001013"/>
+        <obo:IAO_0000115>An infertility due to disease in which a patient has been trying to get pregnant, without success, for at least a year.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.sciencedirect.com/science/article/abs/pii/B9780128197516000104</dc:source>
+        <rdfs:label>primary infertility due to disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001013"/>
+        <obo:IAO_0000117>An infertility due to disease in which a patient who has been able to get pregnant at least once has been trying to get pregnant, without success.</obo:IAO_0000117>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.sciencedirect.com/science/article/abs/pii/B9780128197516000104</dc:source>
+        <rdfs:label>secondary infertility due to disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001015"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer in which a patient has been trying to get pregnant without success.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>primary infertility due to ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001015"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer in which a patient who has been able to get pregnant at least once before has been trying to get pregnant without success.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>secondary infertility due to ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001013"/>
+        <obo:IAO_0000115>An infertility due to disease in which a patient presents a temporal or permanent infertility due to the loss of ovarian function before age 40, in which the ovaries stop making estrogen or releasing eggs.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.sciencedirect.com/science/article/abs/pii/S1555415522004172?via%3Dihub</dc:source>
+        <rdfs:label>infertility due to primary ovarian insufficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001088"/>
+        <obo:IAO_0000115>An infertility due to cancer treatment following an ovarian cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to ovarian cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001021"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer treatment following a surgical intervention in which some parts of the female reproductive system are affected or removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to ovarian cancer surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001022"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer surgery due to the surgical removal of both ovaries following an ovarian cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://pubmed.ncbi.nlm.nih.gov/32644661/</dc:source>
+        <rdfs:label>infertility due to oophorectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001022"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer surgery following the surgical removal of the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0022399907001420?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0022399907001420%3Fshowall%3Dtrue&amp;referrer=https:%2F%2Fpubmed.ncbi.nlm.nih.gov%2F</dc:source>
+        <rdfs:label>infertility due to hysterectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001022"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer surgery following a tumor removal from the reproductive organs that may cause scarring that blocks eggs from moving into the ovaries for fertilization.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://journals.lww.com/journalppo/Fulltext/2009/02000/Medical_and_Psychosocial_Aspects_of_Fertility.6.aspx</dc:source>
+        <rdfs:label>infertility due to reproductive organs tumor removal surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001088"/>
+        <obo:IAO_0000115>An Infertility due to cancer treatment following the intake of chemotherapy drugs as a treatment for cancer which reduces or affects the quality and production of the patient&apos;s gametes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://academic.oup.com/jncics/article/3/1/pkz008/5435639</dc:source>
+        <rdfs:label>infertility due to chemotherapy drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001026"/>
+        <obo:IAO_0000115>An infertility due to chemotherapy drug in which the patient presents a temporal or permanent infertility due to the loss of ovarian function, in which the ovaries stop making estrogen or releasing eggs following chemotherapy sessions.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2014/07/primary-ovarian-insufficiency-in-adolescents-and-young-women</dc:source>
+        <dc:source>https://www.menopause.org.au/hp/information-sheets/early-menopause-due-to-chemotherapy-radiotherapy#:~:text=Premature%20ovarian%20insufficiency%20(POI)%2F,or%20direct%20primordial%20follicle%20loss.</dc:source>
+        <rdfs:label>infertility due to primary ovarian insufficiency following  chemotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001026"/>
+        <obo:IAO_0000115>An infertility due to chemotherapy treatment following a sudden loss of hormones that causes severes symptoms and early menopause. Early menopause is menopause before the age of 45.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.menopause.org.au/hp/information-sheets/early-menopause-due-to-chemotherapy-radiotherapy#:~:text=Premature%20ovarian%20insufficiency%20(POI)%2F,or%20direct%20primordial%20follicle%20loss.</dc:source>
+        <rdfs:label>infertility due to early menopause following chemotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001088"/>
+        <obo:IAO_0000115>An infertility due to cancer treatment following the radiation treatment for cancer which leads to follicular atrophy and decreased ovarian follicular reserve.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.sciencedirect.com/science/article/pii/S0360301608039126?via%3Dihub</dc:source>
+        <rdfs:label>infertility due to radiation therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001029"/>
+        <obo:IAO_0000115>An infertility due to radiation therapy following an ion radiation therapy for cancer in which the patient can become infertile due to damage to the patient&apos;s hormonal system as well as damage to the reproductive gametes. Also patients are more likely to have babies with birth defects.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://doi.org/10.1111/andr.12562</dc:source>
+        <dc:source>https://rbej.biomedcentral.com/articles/10.1186/s12958-018-0432-0#:~:text=However%2C%20ionizing%20radiations%20have%20a,of%20the%20normal%20hormonal%20secretion.</dc:source>
+        <rdfs:label>infertility due to ion radiation therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001029"/>
+        <obo:IAO_0000115>An infertility due to radiation therapy following a non-ion radiation therapy treatment for cancer which can alter both germ cells as well as in their nourishing environment and also affect female reproductive parameters such as the menstrual cycle length. Also patients may experiences miscarriages or give birth to babies with birth deffects.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>ISBN:084934493X</dc:source>
+        <dc:source>https://rbej.biomedcentral.com/articles/10.1186/s12958-018-0432-0</dc:source>
+        <rdfs:label>infertility due to non-ion radiation therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001088"/>
+        <obo:IAO_0000115>An infertility due to cancer treatment following the the intake of some targeted cancer drug therapy.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to targeted cancer drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001088"/>
+        <obo:IAO_0000115>An infertility due to cancer treatment following an immunotherapy that can cause primary hypogonadism and secondary hypogonadism. Hypogonadism results in less oocyte production and low levels of estrogen and progesterone.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.sciencedirect.com/science/article/pii/S2059702921002386?via%3Dihub</dc:source>
+        <rdfs:label>infertility due to inmunotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001015"/>
+        <obo:IAO_0000115>An infertility due to ovarian cancer in which the patient shows an endocrine impact in which there are abnormal levels of hormones.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.mdpi.com/2072-6694/14/10/2500</dc:source>
+        <rdfs:label>infertility due to disregulated hormone system following an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001034"/>
+        <obo:IAO_0000115>An infertility due to disrregulated hormone system following an ovarian cancer due to the sudden loss of hormones before the age of 45 that cause severe menopause symptoms in women.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4928547/#:~:text=Early%20menopause%20or%20premature%20ovarian,per%20cent%20of%20young%20women.</dc:source>
+        <rdfs:label>infertility due to early menopause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001034"/>
+        <obo:IAO_0000115>An infertility due to disregulated hormone system following an ovarian cancer in which the patient&apos;s hormonal imbalances inhibit the production of reproductive system hormones, and result in inhibition of the maturation of follicles and eventually affects the release of the ova.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.bmj.com/content/335/7621/663</dc:source>
+        <rdfs:label>infertility due to anovulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001034"/>
+        <obo:IAO_0000115>An infertility due to disregulated hormone system following an ovarian cancer due to an increase in androgen levels, which can cause policystic ovarian syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6937455/#:~:text=Both%20excess%20and%20deficiency%20of,its%20actions%20in%20theca%20cells.</dc:source>
+        <rdfs:label>infertility due to high levels of androgens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001039"/>
+        <obo:IAO_0000115>A cancer treatment that is administered to a patient following an ovarian cancer to erradicate the cancerous cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001080"/>
+        <obo:IAO_0000115>A disease treatment that is administered to a patient following a cancer to erradicate the cancerous cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001039"/>
+        <obo:IAO_0000115>A cancer treatment that involves a surgical intervention where the cancer tissue is removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>cancer surgery treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001040"/>
+        <obo:IAO_0000115>A cancer surgery treatment following a cancer that involves a surgical intervention where the cancer tissue is removed as much as possible.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://academic.oup.com/jjco/article/51/9/1349/6319623</dc:source>
+        <rdfs:label>cancer debulking surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001038"/>
+        <obo:IAO_0000115>An ovarian cancer treatment in which there is a surgical intervention where the cancer tissue is removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian cancer surgery treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which it is an intervention where the cancer tissue is removed as much as possible, depending where the cancer is spread usually removing the ovaries, fallopian tubes, uterus and cervix.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>ovarian cancer debulking surgery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where one fallopian tube and one ovary are removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>unilateral salpingo-oophorectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where one fallopian tube is removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.moffitt.org/cancers/ovarian-cancer/unilateral-salpingo-oophorectomy/</dc:source>
+        <rdfs:label>unilateral salpingectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where both fallopian tubes are removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/salpingectomy</dc:source>
+        <rdfs:label>bilateral salpingectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where one ovary is removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://my.clevelandclinic.org/health/treatments/17800-oophorectomy</dc:source>
+        <rdfs:label>unilateral oophorectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where both ovaries are removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://my.clevelandclinic.org/health/treatments/17800-oophorectomy</dc:source>
+        <rdfs:label>bilateral oophorectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where both fallopian tubes and one or both ovaries are removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/surgery.html</dc:source>
+        <rdfs:label>bilateral salpingo-oophorectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001042"/>
+        <obo:IAO_0000115>An ovarian cancer surgery treatment in which there is a surgical intervention where all the uterus parts are removed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/surgery.html</dc:source>
+        <rdfs:label>hysterectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001089"/>
+        <obo:IAO_0000115>A lymphadenectomy in which there is a surgical intervention where the lymph nodes are removed, specifically those that are impacted by ovarian cancer such as the para aortic, pelvic and inguinal lymph nodes, as part of an ovarian cancer treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://wjso.biomedcentral.com/articles/10.1186/s12957-022-02835-4</dc:source>
+        <rdfs:label>lymphadenectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001090"/>
+        <obo:IAO_0000115>An omentectomy in which there is a surgical intervention where the omentum is removed as part of an ovarian cancer treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/surgery.html</dc:source>
+        <rdfs:label>omentectomy due to an ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001039"/>
+        <obo:IAO_0000115>A cancer treatment that uses drugs in a non specific way to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing, and also to ease the cancer symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.gov/about-cancer/treatment/types/chemotherapy#:~:text=Chemotherapy%20works%20by%20stopping%20or,stop%20or%20slow%20its%20growth.</dc:source>
+        <rdfs:label>chemotherapy treatment for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001038"/>
+        <obo:IAO_0000115>An ovarian cancer treatment that uses drugs in a non specific way to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing, and also to ease the cancer symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>chemotherapy treatment for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001054"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to an ovarian cancer in which an anticancer drug is administered into the bloodstream through a catheter.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intravenous (IV) chemotherapy for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001054"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to an ovarian cancer in which an intraperitoneal chemo is administered through a catheter into the abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intracavitary chemotherapy for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001038"/>
+        <obo:IAO_0000115>An ovarian cancer treatment that targets cancer cells with the purpose of stopping or slowing the growth or spread of the cancer. These drugs can be given as pills or administered intravenously.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/targeted-therapy.html</dc:source>
+        <rdfs:label>ovarian cancer targeted therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001078"/>
+        <obo:IAO_0000115>A monoclonal antibody target therapy for ovarian cancer in which there is an angiogenesis inhibitor drug that attaches to vascular endothelial growth factor (VEGF) that slows or stops the cancer growth.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/targeted-therapy.html#:~:text=This%20drug%20attaches%20to%20a,of%20advanced%20epithelial%20ovarian%20cancers.</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330806/</dc:source>
+        <rdfs:label>bevacizumab targeted therapy for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001079"/>
+        <obo:IAO_0000115>A small-molecule target drug therapy used to treat an ovarian cancer in which poly (ADP)-ribose polymerase (PARP) inhibitor is administered to promote repair of damaged DNA inside cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/targeted-therapy.html</dc:source>
+        <dc:source>https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0378512215000328?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0378512215000328%3Fshowall%3Dtrue&amp;referrer=https:%2F%2Fpubmed.ncbi.nlm.nih.gov%2F</dc:source>
+        <rdfs:label>PARP inhibitor targeted therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001059"/>
+        <obo:IAO_0000115>A PARP inhibitor targeted drug therapy that is used to treat an advanced ovarian cancer after chemotherapy has been tried before.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/targeted-therapy.html</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8105250/</dc:source>
+        <rdfs:label>olaparib targeted drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001059"/>
+        <obo:IAO_0000115>A PARP inhibitor targeted drug therapy that is used as a maintenance treatment for an advanced ovarian cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://link.springer.com/article/10.1007/s11523-021-00841-2</dc:source>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/targeted-therapy.html</dc:source>
+        <rdfs:label>niraparib targeted drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001059"/>
+        <obo:IAO_0000115>A PARP inhibitor targeted drug therapy following an ovarian cancer that can be used as a maintenance treatment for an advanced ovarian cancer that has come back after treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/types/ovarian-cancer/treating/targeted-therapy.html</dc:source>
+        <dc:source>https://www.pennmedicine.org/news/news-releases/2021/may/a-break-from-chemo-parp-inhibitor-shrinks-tumors-in-pancreatic-cancer-patients-with-mutations</dc:source>
+        <rdfs:label>rucaparib targeted drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001078"/>
+        <obo:IAO_0000115>A monoclonal antibody target drug therapy used to treat ovarian cancer that targets high levels of the folate receptor-alpha (FR-alpha) tumor associated antigens on the cell surface.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6459241/</dc:source>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6459241/#:~:text=FRα%20is%20a%20tumor%E2%80%90associated,more%20poorly%20differentiated%2C%20aggressive%20tumors.</dc:source>
+        <rdfs:label>target folate receptor-alpha drug therapy for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001063"/>
+        <obo:IAO_0000115>A drug therapy that targets folate receptor-alpha used to treat epithelial ovarian cancer that tests positive for FR-alpha and that is no longer responding to platinum chemotherapy drugs.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10150846/</dc:source>
+        <dc:source>https://www.sciencedirect.com/science/article/pii/S092375341949409X?via%3Dihub</dc:source>
+        <rdfs:label>mirvetuximab soravtansine drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001079"/>
+        <obo:IAO_0000115>A small molecule target drug therapy used to treat an advanced ovarian cancer whose tumor has a neurotrophic tyrosine receptor kinase (NTRK) gene change and is still growing despite other treatments.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.gov/news-events/cancer-currents-blog/2019/fda-entrectinib-ntrk-fusion</dc:source>
+        <dc:source>https://www.cancer.org/cancer/types/lung-cancer/treating-non-small-cell/targeted-therapies.html#:~:text=Drugs%20that%20target%20cells%20with%20NTRK%20gene%20changes,-A%20very%20small&amp;text=Larotrectinib%20(Vitrakvi)%20and%20entrectinib%20(,has%20an%20NTRK%20gene%20change.</dc:source>
+        <rdfs:label>drug therapy to target cells with changes in the neurotrophic tyrosine receptor kinase (NTRK) gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which an anticancer drug is administered into the bloodstream through a catheter to destroy the cancerous cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intravenous (IV) chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is administered into the spinal canal through a catheter.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intrathecal (IT) chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is administered right into the main artery that supplies blood to the tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intra-arterial chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is administered  through a catheter into an enclosed area of the body such as the bladder, the abdomen, or the chest.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intracavitary chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is administered through a needle that is attached to a syringe into a muscle.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intramuscular (IM) chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is administered through a needle right into the cancerous tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intralesional chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is administered through a catheter into the bladder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/getting-chemotherapy.html</dc:source>
+        <rdfs:label>intravesical chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is swallowed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/oral-chemotherapy.html#:~:text=While%20many%20chemotherapy%20(chemo)%20drugs,or%20applied%20to%20the%20skin.</dc:source>
+        <rdfs:label>oral chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001053"/>
+        <obo:IAO_0000115>A chemotherapy treatment due to cancer in which the anticancer drug is applied in the skin area where the cancer is located.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.org/cancer/managing-cancer/treatment-types/chemotherapy/oral-chemotherapy.html#:~:text=While%20many%20chemotherapy%20(chemo)%20drugs,or%20applied%20to%20the%20skin.</dc:source>
+        <rdfs:label>topical chemotherapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001039"/>
+        <obo:IAO_0000115>A cancer treatment that uses drugs to target the cancer cells to stop or slow the growth or spread.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies</dc:source>
+        <rdfs:label>targeted drug therapy for cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001075"/>
+        <obo:IAO_0000115>A targeted cancer drug therapy that uses small molecule inhibitors that have the ability to penetrate into the cancerous cells which inhibits the target related cell signaling, interrupting unique molecular abnormalities that drive to the cancer growth.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://onlinelibrary.wiley.com/doi/full/10.1002/mco2.181</dc:source>
+        <dc:source>https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies</dc:source>
+        <rdfs:label>small-molecule target drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001075"/>
+        <obo:IAO_0000115>A targeted cancer drug therapy that uses monoclonal antibodies that may attack the cell more directly, the antibodies will get attached to the cancerous cells and then produce apoptosis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.mayoclinic.org/diseases-conditions/cancer/in-depth/monoclonal-antibody/art-20047808</dc:source>
+        <rdfs:label>monoclonal antibody target drug therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001057"/>
+        <obo:IAO_0000115>An ovarian cancer targeted drug therapy that uses monoclonal antibodies to attack the cell more directly due to the antibodies atachement to the ovarian cancerous cells which will produce apoptosis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://cancer.ca/en/treatments/treatment-types/targeted-therapy</dc:source>
+        <rdfs:label>monoclonal antibody target drug therapy for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001057"/>
+        <obo:IAO_0000115>An ovarian cancer targeted drug therapy that uses small molecule inhibitors that have the ability to penetrate into the ovarian cancerous cells interrupting unique molecular abnormalities that drive to the cancer growth.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <dc:source>https://www.nature.com/articles/s41392-021-00572-w</dc:source>
+        <rdfs:label>small-molecule target drug therapy for ovarian cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>A treatment following a disease in which there is a processual medication or therapy to alleviate the signs and symptoms due to a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>disease treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001038"/>
+        <obo:IAO_0000115>An ovarian cancer treatment side effect in which healthy cells ressults damaged, or organs are removed during surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <obo:IAO_0000118>ovarian cancer treatment side effect</obo:IAO_0000118>
+        <dc:source>https://oig.hhs.gov/reports-and-publications/featured-topics/adverse-events/#:~:text=Adverse%20Event%20%2D%20An%20event%20in,intervention%2C%20or%20contributed%20to%20death.</dc:source>
+        <rdfs:label>ovarian cancer treatment adverse event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <obo:IAO_0000115>A pathological bodily process that occurs after a medical intervention. An adverse event is likely caused by the medical intervention.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>adverse event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001082"/>
+        <obo:IAO_0000115>A pathological bodily process following a cancer treatment, that usually occurs after a medical intervention.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-26T20:15:55Z</dc:date>
+        <oboInOwl:hasRelatedSynonym>cancer treatment risk</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>adverse event following a cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001083"/>
+        <obo:IAO_0000115>A pathological bodily process following an ovarian cancer treatment, that usually occurs after a medical intervention to treat the ovarian cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-26T20:16:56Z</dc:date>
+        <oboInOwl:hasRelatedSynonym>ovarian cancer treatment risk</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>adverse event following ovarian cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder of the reproductive system in  which is clinically abnormal, these are the physical basis of disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>reproductive system disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001085"/>
+        <obo:IAO_0000115>A reproductive system disorder in which the male or female patients are not able to achieve a pregnancy after 12 months or more of regular unprotected sexual intercourse.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <obo:IAO_0000118>infertility</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.who.int/news-room/fact-sheets/detail/infertility#:~:text=Key%20facts,on%20their%20families%20and%20communities.</obo:IAO_0000119>
+        <rdfs:label>infertility disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001086"/>
+        <obo:IAO_0000115>An infertility disorder following a disease treatment in which a patients fertility is loss or  womens are unable to conceive or carry a pregnancy to term.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to disease treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001088">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NPO_0001087"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002354"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001039"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001087"/>
+        <obo:IAO_0000115>An infertility due to disease treatment following an ovarian cancer in which a patients fertility is loss or  womens are unable to conceive or carry a pregnancy to term.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
+        <rdfs:label>infertility due to cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001040"/>
+        <obo:IAO_0000115>A cancer surgery treatment in which there is a surgical procedure to remove one or more lymph nodes or groups of lymph nodes, which are then evaluated for the presence of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-05T15:50:30Z</dc:date>
+        <dc:source>https://surgery.ucsf.edu/conditions--procedures/lymphadenectomy.aspx</dc:source>
+        <rdfs:label>lymphadenectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001040"/>
+        <obo:IAO_0000115>A cancer surgery treatment in which there is a surgical removal of all or part of the omentum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Delgado Muniz</obo:IAO_0000117>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-05T15:55:26Z</dc:date>
+        <dc:source>https://www.mercy.com/health-care-services/cancer-care-oncology/specialties/ovarian-uterine-cervical-cancer/treatments/omentectomy</dc:source>
+        <rdfs:label>omentectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000030"/>
+        <obo:IAO_0000115>A predisposition to disease that increase the patient chances of developing cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Y. Delgado Muniz</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:03:22Z</dc:date>
+        <rdfs:label>predisposition to cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000033"/>
+        <obo:IAO_0000115>A predisposition to cancer caused by changes in genes that control the way cells grow and multiply it can be caused following random mistakes in the patients DNA.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/genetics</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:28:11Z</dc:date>
+        <rdfs:label>predisposition to cancer due to genetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A risk factor for cancer in which the radiation of certain wavelengths, called ionizing radiation, has enough energy to damage DNA and cause cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:27:23Z</dc:date>
+        <rdfs:label>predisposition to cancer due to radiation exposure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A risk factor for cancer in which people with obesity may have an increased risk of several types of cancer, including breast cancer, colon cancer, rectum cancer, endometrium cancer, esophagus cancer, kidney cancer, pancreas cancer, and gallbladder cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/obesity</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:27:06Z</dc:date>
+        <rdfs:label>predisposition to cancer due to obesity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A risk factor for cancer in which certain infectious agents such as viruses, bacteria, and parasites, can cause cancer or increase the risk that cancer will form due to the disrupt signaling that normally keeps cell growth and proliferation, chronic inflamation or because the immune system is affected, making the body less able to fight off other cancer-causing infections.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:26:28Z</dc:date>
+        <rdfs:label>predisposition to cancer due to infectious agents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A risk factor for cancer in which &quot;immunosuppressive&quot; drugs make the immune system less able to detect and destroy cancer cells or fight off infections that cause cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/immunosuppression</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:25:45Z</dc:date>
+        <rdfs:label>predisposition to cancer due to immunosuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A risk factor for cancer in which hormones such as estrogens and progesterone hormones have been associated with an increased risk of certain cancers.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:24:17Z</dc:date>
+        <rdfs:label>predisposition to cancer due to hormones imbalances</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A risk factor for cancer in which some dietary component are possible associated with cancer development, such as acrylamide, artificial sweeteners (saccharin, aspartame, acesulfame potassium, sucralose, neotame, and advantame), and charred meat.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/diet</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:23:56Z</dc:date>
+        <rdfs:label>predisposition to cancer due to diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A  predisposition to cancer in which chronic inflammation produce a  continious inflammatory process even if there is no injury, over time it can cause DNA damage and lead to cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/chronic-inflammation</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:23:18Z</dc:date>
+        <rdfs:label>predisposition to cancer due to chronic inflamation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A predisposition to cancer in which the patient is more likely to develop cancer following the exposure of carcinogen substances chemical substances such as aflatoxins, aristolochic acids, arsenic, asbestos, and others.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/substances</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:22:48Z</dc:date>
+        <rdfs:label>predisposition to cancer due to carcinogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A predisposition to cancer in which the alcohol intake predisposes the patient to develop cancer, including of the mouth, throat, esophagus, larynx, liver, and breast.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/alcohol</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:20:07Z</dc:date>
+        <rdfs:label>predisposition to cancer due to alcohol intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001091"/>
+        <obo:IAO_0000115>A predisposition to cancer in which at a higher age the patient is more likely to develop the disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/causes-prevention/risk/age</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date>2023-07-15T15:19:37Z</dc:date>
+        <rdfs:label>predisposition to cancer due to age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001115"/>
+        <obo:IAO_0000115>A pathological derivation in which patients that have or had a cancer are more likely to develop other cancer type due to the weakened inmune system response.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.net/survivorship/what-second-cancer</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T16:54:53Z</dc:date>
+        <rdfs:label>second cancer disease course following a cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001103"/>
+        <obo:IAO_0000115>A second (unrelated) cancer that an ovarian cancer patient develops.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/after-treatment/second-cancers.html#:~:text=Survivors%20of%20ovarian%20cancer%20can,Small%20intestine%20cancer</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:04:42Z</dc:date>
+        <rdfs:label>second cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001115"/>
+        <obo:IAO_0000115>A pathological derivation in which a patient develops a cancers caused by the treatment for a previous cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.oncolink.org/support/survivorship/health-concerns-after-cancer-treatment-late-effects/survivorship-cancer-after-cancer#:~:text=A%20secondary%20cancer%20is%20one,cancer%20medicines%20or%20radiation%20therapy.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:11:00Z</dc:date>
+        <rdfs:label>second cancer disease course following a cancer treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:44:38Z</dc:date>
+        <rdfs:label>colon cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:45:53Z</dc:date>
+        <rdfs:label>rectal cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:47:03Z</dc:date>
+        <rdfs:label>small intestine cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:47:32Z</dc:date>
+        <rdfs:label>renal pelvis cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:52:30Z</dc:date>
+        <rdfs:label>breast cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:52:56Z</dc:date>
+        <rdfs:label>bladder cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:53:50Z</dc:date>
+        <rdfs:label>bile duct cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:54:28Z</dc:date>
+        <rdfs:label>melanoma of the eye disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001104"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T17:55:13Z</dc:date>
+        <rdfs:label>acute leukemia disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000063"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:23:09Z</dc:date>
+        <rdfs:label>cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001115"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:44:11Z</dc:date>
+        <rdfs:label>metastatic cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001116"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:52:35Z</dc:date>
+        <rdfs:label>metastatic cancer disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:59:31Z</dc:date>
+        <rdfs:label>liver metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:00:09Z</dc:date>
+        <rdfs:label>pleural metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115>The morphology of a tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yeriane Delgado Muniz</obo:IAO_0000117>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:11:12Z</dc:date>
+        <rdfs:label>tumor morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding based on clinicopathologic evaluation of tumors based on the extent of tumor involvement at the primary site (T, followed by a number indicating size and depth of invasion), and lymph node involvement (N) and metastasis (M) each followed by a number starting at 0 for no evident metastasis; numbers used depend on the organ involved and influence the prognosis and choice of treatment.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C25384&amp;ns=ncit</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:28:33Z</dc:date>
+        <rdfs:label>TNM cancer stage finding</rdfs:label>
     </owl:Class>
     
 
@@ -238,9 +1986,89 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/npo.owl#T0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#T0">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:37:13Z</dc:date>
+        <rdfs:label>T1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/npo.owl#brain_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#brain_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:05:46Z</dc:date>
+        <rdfs:label>brain metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/npo.owl#intestine_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#intestine_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:06:38Z</dc:date>
+        <rdfs:label>intestine metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/npo.owl#lymph_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#lymph_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:07:22Z</dc:date>
+        <rdfs:label>lymph node metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/npo.owl#skin_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#skin_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:06:07Z</dc:date>
+        <rdfs:label>skin metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/npo.owl#spleen_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#spleen_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:04:53Z</dc:date>
+        <rdfs:label>spleen metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7829">
+        <rdfs:comment>T1</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 
