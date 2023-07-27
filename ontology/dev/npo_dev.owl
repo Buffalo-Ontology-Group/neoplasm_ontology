@@ -193,7 +193,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/npo.owl#T2"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -528,7 +528,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/npo.owl#T0"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001127"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A clinical finding that is about ovarian cancer.</obo:IAO_0000115>
@@ -1921,6 +1921,8 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000063"/>
+        <obo:IAO_0000115>A disease course in which the patient shows an uncontrolled division of abnomal cells in an specific part of the body which continuously spread to others parts.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/understanding/what-is-cancer</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:23:09Z</dc:date>
         <rdfs:label>cancer disease course</rdfs:label>
@@ -1932,6 +1934,8 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001115"/>
+        <obo:IAO_0000115>A disease course in which the patient shows an uncontrolled division of abnomal cells in an specific part of the body and then contiously spread to another part of the body.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/publications/dictionaries/cancer-terms/def/metastasis#:~:text=(meh%2DTAS%2Dtuh%2D,or%20tissues%20of%20the%20body.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:44:11Z</dc:date>
         <rdfs:label>metastatic cancer disease course</rdfs:label>
@@ -1943,6 +1947,8 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001116"/>
+        <obo:IAO_0000115>A disease course in which the patient shows an uncontrolled division of abnomal cells in the ovaries and then contiously these cancerous cells spread to another part of the body such as the liver, the pleura (fluid around the lungs), the spleen, the intestines, the brain, skin or lymph nodes outside of the abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.moffitt.org/cancers/ovarian-cancer/faqs/where-does-metastatic-ovarian-cancer-spread-to/#:~:text=Metastatic%20ovarian%20cancer%20is%20an,nodes%20outside%20of%20the%20abdomen.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T18:52:35Z</dc:date>
         <rdfs:label>metastatic cancer disease course following an ovarian cancer disease course</rdfs:label>
@@ -1972,6 +1978,61 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NPO_0001120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:04:53Z</dc:date>
+        <rdfs:label>splenic metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:05:46Z</dc:date>
+        <rdfs:label>brain metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:06:07Z</dc:date>
+        <rdfs:label>skin metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:06:38Z</dc:date>
+        <rdfs:label>intestine metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:07:22Z</dc:date>
+        <rdfs:label>lymph node metastasis disease course following an ovarian cancer disease course</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NPO_0001125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001125">
@@ -1993,7 +2054,203 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C25384&amp;ns=ncit</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:28:33Z</dc:date>
-        <rdfs:label>TNM cancer stage finding</rdfs:label>
+        <rdfs:label>ovarian cancer by TNM stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the cancer is only in the ovary (or ovaries) or fallopian tube(s).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:37:13Z</dc:date>
+        <rdfs:label>T1 ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one ovary, and the tumor is confined to the inside of the ovary; or the cancer is in one fallopian tube, and is only inside the fallopian tube. There is no cancer on the outer surfaces of the ovary or fallopian tube. There are no cancer cells in the fluid (ascites) or washings from the abdomen and pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:49Z</dc:date>
+        <rdfs:label>T1a ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the</obo:IAO_0000115>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in both ovaries or fallopian tubes but not on their outer surfaces. No cancer cells are found in the fluid (ascites) or washings from the abdomen and pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:59Z</dc:date>
+        <rdfs:label>T1b ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one or both ovaries or fallopian tubes and in the tissue (capsule) surrounding the tumor broke during surgery, which could allow cancer cells to leak into the abdomen and pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:27:08Z</dc:date>
+        <rdfs:label>T1c ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the cancer is in one or both ovaries or fallopian tubes and has spread to other organs (such as the uterus, bladder, the sigmoid colon, or the rectum) within the pelvis or there is primary peritoneal cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T19:27:41Z</dc:date>
+        <rdfs:label>T2 ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer has spread to or has invaded (grown into) the uterus or the fallopian tubes, or the ovaries.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:18Z</dc:date>
+        <rdfs:label>T2a ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is on the outer surface of or has grown into other nearby pelvic organs such as the bladder, the sigmoid colon, or the rectum.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:27Z</dc:date>
+        <rdfs:label>T2b ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one or both ovaries or fallopian tubes, or there is primary peritoneal cancer and it has spread or grown into organs outside the pelvis. During surgery, no cancer is visible in the abdomen (outside of the pelvis) to the naked eye, but tiny deposits of cancer are found in the lining of the abdomen when it is examined in the lab.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:20:11Z</dc:date>
+        <rdfs:label>T3a ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one or both ovaries or fallopian tubes, or there is primary peritoneal cancer and it has spread or grown into organs outside the pelvis. The deposits of cancer are large enough for the surgeon to see, but are no bigger than 2 cm (about 3/4 inch) across.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:25:26Z</dc:date>
+        <rdfs:label>T3b ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one or both ovaries or fallopian tubes, or there is primary peritoneal cancer and it has spread or grown into organs outside the pelvis. The deposits of cancer are larger than 2 cm (about 3/4 inch) across and may be on the outside (the capsule) of the liver or spleen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:25:35Z</dc:date>
+        <rdfs:label>T3c ovarian cancer stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer has not spread to the retroperitoneal lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T19:20:12Z</dc:date>
+        <rdfs:label>N0 ovarian cancer by TNM stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer has spread to the retroperitoneal lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T19:20:45Z</dc:date>
+        <rdfs:label>N1 ovarian cancer by TNM stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer has not spread to distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T19:21:24Z</dc:date>
+        <rdfs:label>M0 ovarian cancer by TNM stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the cancer cells are found in the fluid around the lungs (called a malignant pleural effusion) with no other areas of cancer spread such as the liver, spleen, intestine, or lymph nodes outside the abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T19:22:04Z</dc:date>
+        <rdfs:label>M1a ovarian cancer by TNM stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
+        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer has spread to the inside of the spleen or liver, to lymph nodes other than the retroperitoneal lymph nodes, and/or to other organs or tissues outside the peritoneal cavity such as the lungs and bones.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T19:22:21Z</dc:date>
+        <rdfs:label>M1b ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2016,83 +2273,6 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#T0 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#T0">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:37:13Z</dc:date>
-        <rdfs:label>T1 cancer stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#T2 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#T2">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T19:27:41Z</dc:date>
-        <rdfs:label>T2 cancer stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#brain_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#brain_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:05:46Z</dc:date>
-        <rdfs:label>brain metastasis disease course following an ovarian cancer disease course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#intestine_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#intestine_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:06:38Z</dc:date>
-        <rdfs:label>intestine metastasis disease course following an ovarian cancer disease course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#lymph_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#lymph_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:07:22Z</dc:date>
-        <rdfs:label>lymph node metastasis disease course following an ovarian cancer disease course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#skin_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#skin_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:06:07Z</dc:date>
-        <rdfs:label>skin metastasis disease course following an ovarian cancer disease course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#spleen_metastasis_disease_course_following_an_ovarian_cancer_disease_course -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#spleen_metastasis_disease_course_following_an_ovarian_cancer_disease_course">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001117"/>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T19:04:53Z</dc:date>
-        <rdfs:label>spleen metastasis disease course following an ovarian cancer disease course</rdfs:label>
-    </owl:Class>
     
 
 
