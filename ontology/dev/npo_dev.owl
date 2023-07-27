@@ -2255,6 +2255,218 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NPO_0001142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000115>An ovarian neoplasm that is the most common type of ovarian cancer, it it developed in the epithelial tissue, in the lining of a fallopian tube or it can begin in the peritoneum.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://my.clevelandclinic.org/health/diseases/22250-epithelial-ovarian-cancer</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:15:48Z</dc:date>
+        <rdfs:label>epithelial ovarian tumors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001142"/>
+        <obo:IAO_0000115>Epithelial ovarian tumors that do not spread and usually do not lead to serious illness.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:20:39Z</dc:date>
+        <rdfs:label>benign epithelial ovarian tumors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001142"/>
+        <obo:IAO_0000115>Epithelial ovarian tumor that when it is analyzed it does not appear to be cancerous. This type of tumor do not grow into the stroma. If it spread outside the ovary, for example, into the abdominal cavity (belly), it might grow on the lining of the abdomen but not into it. These tumors grow slowly and are less life-threatening than most ovarian cancers.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:21:21Z</dc:date>
+        <rdfs:label>borderline epithelial tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001142"/>
+        <obo:IAO_0000115>Epithelial ovarian tumor carcinoma, are invasive cancers that grow rapidly and may spread to other areas of the body.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:21:34Z</dc:date>
+        <rdfs:label>malignant epithelial ovarian tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001143"/>
+        <obo:IAO_0000115>Benign epithelial ovarian tumor that has a primarily unilocular cystic composition filled with clear watery fluid. Composed of a solitary layer of benign epithelium which resembles fallopian tube mucosa and may form papillary structures.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://radiopaedia.org/articles/ovarian-serous-cystadenoma</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:32:57Z</dc:date>
+        <rdfs:label>serous cystadenomas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001143"/>
+        <obo:IAO_0000115>A benign epithelial ovarian neoplasm that have a smooth surface and are usually multilocular and sometimes unilocular, are composed of multiple cysts and glands lined by simple non-stratified mucinous epithelium.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK536950/#:~:text=Mucinous%20cystadenoma%20is%20composed%20of,with%20areas%20of%20stromal%20luteinization.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:33:23Z</dc:date>
+        <rdfs:label>mucinous cystadenomas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001143"/>
+        <obo:IAO_0000115>Benign epithelial ovarian tumor that is composed of ovarian transition cells surrounded by dense fibrous tissue, is usually unilateral and frequently is asymptomatic.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.sciencedirect.com/topics/medicine-and-dentistry/brenner-tumor</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:33:42Z</dc:date>
+        <rdfs:label>brenner tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor that ussually is invasive, it is characterized  due to the papillary structures, relatively uniform tumor and has small nuclei. It frequently metastasize as small solid nests of tumor cells or as micropapillae. Are classified as low-grade or high-grade,  in which low-grade tumors are slower in developing than high-grade ones.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.sciencedirect.com/topics/medicine-and-dentistry/serous-carcinoma</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:34:04Z</dc:date>
+        <rdfs:label>serous carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor that ussually is a second cancer or site of metastasis, this tumor secrete mucus. Ussually the primary tumor organs are the stomach, intestines and inside the inner part of the cervix.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7168201/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:34:19Z</dc:date>
+        <rdfs:label>mucinous carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor that starts in the lining of the womb and it is usually cystic and solid with foci of necrosis and hemorrhage. It has presence of squamous differentiation, villoglandular pattern, secretory features and ciliated cells.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.sciencedirect.com/topics/medicine-and-dentistry/endometrioid-carcinoma</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:34:40Z</dc:date>
+        <rdfs:label>endometrioid carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor in which patients with endometriosis are more likely to develop it. These tumors typically arise as unilateral mass and can be cystic or a mixtur of solid/cystic. These carcinoma exhibit a variable admixture patterns in the morphology, most frequently tubolystic and papillary.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cureourovariancancer.org/nz/clear-cell-ovarian-cancer/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:35:00Z</dc:date>
+        <rdfs:label>clear cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000115>An ovarian neoplasm that usually form the ova or eggs in females and the sperm in males. Most ovarian germ cell tumors are benign, but some are cancerous and may be life threatening. Germ cell tumors can also be a mix of more than a single subtype.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:38:09Z</dc:date>
+        <rdfs:label>ovarian germ cell tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001153"/>
+        <obo:IAO_0000115>An ovarian germ cell tumor that, when seen under the microscope, look like each of the 3 layers of a developing embryo: the endoderm (innermost layer), mesoderm (middle layer), and ectoderm (outer layer). They occur in girls and young women, usually younger than 18. This germ cell tumor has a benign form called mature teratoma and a cancerous form called immature teratoma.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:38:41Z</dc:date>
+        <rdfs:label>teratoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001153"/>
+        <obo:IAO_0000115>An ovarian germ cell tumo,  the most common ovarian germ cell cancer. It usually affects women in their teens and twenties. Dysgerminomas are considered malignant (cancerous), but most do not grow or spread very rapidly.  Surgery, radiation therapy, and/or chemotherapy are effective in controlling or curing the disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:38:51Z</dc:date>
+        <rdfs:label>dysgerminoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001153"/>
+        <obo:IAO_0000115>An ovarian germ cell tumor that is a rare type of cancer, that occurs most often in the ovary or testicle, but they may also occur in other areas of the body, such as the chest, abdomen, or brain. They tend to grow quickly and spread to other parts of the body if not treated. Endodermal sinus tumors are the most common malignant germ cell tumor in children.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:39:13Z</dc:date>
+        <rdfs:label>endodermal sinus tumor (yolk sac tumor)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001153"/>
+        <obo:IAO_0000115>An ovarian germ cell tumor choriocarcinoma that is highly malignant and is characterized pathologically by the presence of trophoblastic malignant cells, and biochemically by the production of the pregnancy hormone human chorionic gonadotrophin (hCG) in the absence of an ongoing pregnancy. Choriocarcinoma tends to be invasive and to metastasize early and widely through both the venous and lymphatic systems.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://atlasgeneticsoncology.org/solid-tumor/5219/ovary-choriocarcinoma</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:39:43Z</dc:date>
+        <rdfs:label>choriocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000078 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000078">
