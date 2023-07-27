@@ -2467,6 +2467,19 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NPO_0001158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000115>Ovarian neoplasm that is developed in the ovaries structural connective tissue cells that produce the female hormones estrogen and progesterone.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancerresearchuk.org/about-cancer/ovarian-cancer/types/sex-cord-stromal</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T03:03:47Z</dc:date>
+        <rdfs:label>ovarian sex cord stromal tumor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000078 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000078">
