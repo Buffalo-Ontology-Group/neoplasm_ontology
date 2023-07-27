@@ -187,6 +187,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C5220 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C5220">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001128"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C7830 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7830">
@@ -2054,7 +2073,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C25384&amp;ns=ncit</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:28:33Z</dc:date>
-        <rdfs:label>ovarian cancer by TNM stage</rdfs:label>
+        <rdfs:label>ovarian cancer stage by TNM staging</rdfs:label>
     </owl:Class>
     
 
@@ -2067,7 +2086,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:37:13Z</dc:date>
-        <rdfs:label>T1 ovarian cancer stage</rdfs:label>
+        <rdfs:label>T1 ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2080,7 +2099,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:49Z</dc:date>
-        <rdfs:label>T1a ovarian cancer stage</rdfs:label>
+        <rdfs:label>T1a ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2094,7 +2113,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:59Z</dc:date>
-        <rdfs:label>T1b ovarian cancer stage</rdfs:label>
+        <rdfs:label>T1b ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2107,7 +2126,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:27:08Z</dc:date>
-        <rdfs:label>T1c ovarian cancer stage</rdfs:label>
+        <rdfs:label>T1c ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2120,7 +2139,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T19:27:41Z</dc:date>
-        <rdfs:label>T2 ovarian cancer stage</rdfs:label>
+        <rdfs:label>T2 ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2133,7 +2152,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:18Z</dc:date>
-        <rdfs:label>T2a ovarian cancer stage</rdfs:label>
+        <rdfs:label>T2a ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2146,7 +2165,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:27Z</dc:date>
-        <rdfs:label>T2b ovarian cancer stage</rdfs:label>
+        <rdfs:label>T2b ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2159,7 +2178,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:20:11Z</dc:date>
-        <rdfs:label>T3a ovarian cancer stage</rdfs:label>
+        <rdfs:label>T3a ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2172,7 +2191,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:25:26Z</dc:date>
-        <rdfs:label>T3b ovarian cancer stage</rdfs:label>
+        <rdfs:label>T3b ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2185,7 +2204,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:25:35Z</dc:date>
-        <rdfs:label>T3c ovarian cancer stage</rdfs:label>
+        <rdfs:label>T3c ovarian cancer by TNM stage</rdfs:label>
     </owl:Class>
     
 
@@ -2259,11 +2278,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
-        <obo:IAO_0000115>An ovarian neoplasm that is the most common type of ovarian cancer, it it developed in the epithelial tissue, in the lining of a fallopian tube or it can begin in the peritoneum.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian neoplasm that develops in the epithelial tissue in the lining of a fallopian tube or the peritoneum. It is the most common type of ovarian cancer.</obo:IAO_0000115>
         <obo:IAO_0000119>https://my.clevelandclinic.org/health/diseases/22250-epithelial-ovarian-cancer</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:15:48Z</dc:date>
-        <rdfs:label>epithelial ovarian tumors</rdfs:label>
+        <rdfs:label>epithelial ovarian tumor</rdfs:label>
     </owl:Class>
     
 
@@ -2272,11 +2291,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001142"/>
-        <obo:IAO_0000115>Epithelial ovarian tumors that do not spread and usually do not lead to serious illness.</obo:IAO_0000115>
+        <obo:IAO_0000115>An epithelial ovarian tumor that does not spread and usually does not lead to serious illness.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:20:39Z</dc:date>
-        <rdfs:label>benign epithelial ovarian tumors</rdfs:label>
+        <rdfs:label>benign epithelial ovarian tumor</rdfs:label>
     </owl:Class>
     
 
@@ -2285,7 +2304,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001142"/>
-        <obo:IAO_0000115>Epithelial ovarian tumor that when it is analyzed it does not appear to be cancerous. This type of tumor do not grow into the stroma. If it spread outside the ovary, for example, into the abdominal cavity (belly), it might grow on the lining of the abdomen but not into it. These tumors grow slowly and are less life-threatening than most ovarian cancers.</obo:IAO_0000115>
+        <obo:IAO_0000115>An epithelial ovarian tumor that have a pathological and clinical intermediate form, between benign and malignant ovarian tumor. When the tumor is analyzed morphologically it does not appear to be malignant. This type of tumor do not grow into the stroma. If it spread outside the ovary, for example, into the abdominal cavity (belly), it might grow on the lining of the abdomen but not into it. These tumors grow slowly and are less life-threatening than most ovarian cancers.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:21:21Z</dc:date>
@@ -2298,7 +2317,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001142"/>
-        <obo:IAO_0000115>Epithelial ovarian tumor carcinoma, are invasive cancers that grow rapidly and may spread to other areas of the body.</obo:IAO_0000115>
+        <obo:IAO_0000115>An epithelial ovarian tumor that is an invasive carcinoma that grows rapidly and may metastasize.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:21:34Z</dc:date>
@@ -2311,7 +2330,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001143"/>
-        <obo:IAO_0000115>Benign epithelial ovarian tumor that has a primarily unilocular cystic composition filled with clear watery fluid. Composed of a solitary layer of benign epithelium which resembles fallopian tube mucosa and may form papillary structures.</obo:IAO_0000115>
+        <obo:IAO_0000115>A benign epithelial ovarian tumor that has a primarily unilocular cystic composition filled with clear watery fluid. The tumor is composed of a single layer of benign epithelium which resembles fallopian tube mucosa and may form papillary structures.</obo:IAO_0000115>
         <obo:IAO_0000119>https://radiopaedia.org/articles/ovarian-serous-cystadenoma</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
@@ -2325,12 +2344,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001143"/>
-        <obo:IAO_0000115>A benign epithelial ovarian neoplasm that have a smooth surface and are usually multilocular and sometimes unilocular, are composed of multiple cysts and glands lined by simple non-stratified mucinous epithelium.</obo:IAO_0000115>
+        <obo:IAO_0000115>A benign epithelial ovarian neoplasm that has a smooth surface, is usually multilocular and sometimes unilocular, and has a complex internal structure composed of multiple cysts containing fluid and glands lined by simple non-stratified mucinous epithelium.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK536950/#:~:text=Mucinous%20cystadenoma%20is%20composed%20of,with%20areas%20of%20stromal%20luteinization.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:33:23Z</dc:date>
-        <rdfs:label>mucinous cystadenomas</rdfs:label>
+        <rdfs:label>mucinous cystadenoma</rdfs:label>
     </owl:Class>
     
 
@@ -2339,7 +2358,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001143"/>
-        <obo:IAO_0000115>Benign epithelial ovarian tumor that is composed of ovarian transition cells surrounded by dense fibrous tissue, is usually unilateral and frequently is asymptomatic.</obo:IAO_0000115>
+        <obo:IAO_0000115>A benign epithelial ovarian tumor that is composed of ovarian transition cells surrounded by dense fibrous tissue. It is usually unilateral and frequently is asymptomatic.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.sciencedirect.com/topics/medicine-and-dentistry/brenner-tumor</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
@@ -2353,7 +2372,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
-        <obo:IAO_0000115>A malignant epithelial ovarian tumor that ussually is invasive, it is characterized  due to the papillary structures, relatively uniform tumor and has small nuclei. It frequently metastasize as small solid nests of tumor cells or as micropapillae. Are classified as low-grade or high-grade,  in which low-grade tumors are slower in developing than high-grade ones.</obo:IAO_0000115>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor that is ussually invasive, it is characterized  due to the papillary structures and has a relatively uniform tumor appereance. It frequently metastasize as small solid nests of tumor cells or as micropapillae. It is classified as low-grade or high-grade,  in which low-grade tumor is slower in developing than high-grade one.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.sciencedirect.com/topics/medicine-and-dentistry/serous-carcinoma</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:34:04Z</dc:date>
@@ -2366,7 +2385,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
-        <obo:IAO_0000115>A malignant epithelial ovarian tumor that ussually is a second cancer or site of metastasis, this tumor secrete mucus. Ussually the primary tumor organs are the stomach, intestines and inside the inner part of the cervix.</obo:IAO_0000115>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor that secrete mucus and ussually is a second cancer or site of metastasis. Ussually the primary tumor organs are the stomach, intestines and inside the inner part of the cervix.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7168201/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:34:19Z</dc:date>
@@ -2379,11 +2398,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001145"/>
-        <obo:IAO_0000115>A malignant epithelial ovarian tumor that starts in the lining of the womb and it is usually cystic and solid with foci of necrosis and hemorrhage. It has presence of squamous differentiation, villoglandular pattern, secretory features and ciliated cells.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.sciencedirect.com/topics/medicine-and-dentistry/endometrioid-carcinoma</obo:IAO_0000119>
+        <obo:IAO_0000115>A malignant epithelial ovarian tumor that typically develops from benign (noncancerous) conditions. It may form from ovarian cysts, endometriosis or brenner tumors.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://my.clevelandclinic.org/health/diseases/22250-epithelial-ovarian-cancer#:~:text=Epithelial%20ovarian%20cancer%20—%20the%20most,surgery%20removes%20ovarian%20cancer%20tumors.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T01:34:40Z</dc:date>
-        <rdfs:label>endometrioid carcinoma</rdfs:label>
+        <rdfs:label>primary squamous cell carcinoma of the ovary</rdfs:label>
     </owl:Class>
     
 
@@ -2471,11 +2490,102 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
-        <obo:IAO_0000115>Ovarian neoplasm that is developed in the ovaries structural connective tissue cells that produce the female hormones estrogen and progesterone.</obo:IAO_0000115>
+        <obo:IAO_0000115>Ovarian neoplasm that is developed in the ovaries structural connective tissue cells that produce the female hormones estrogen and progesterone. These tumors are often found in young females and can present hormonal manifestations as well as signs and symptoms of a pelvic mass.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancerresearchuk.org/about-cancer/ovarian-cancer/types/sex-cord-stromal</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5063189/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T03:03:47Z</dc:date>
         <rdfs:label>ovarian sex cord stromal tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001158"/>
+        <obo:IAO_0000115>An ovarian sex cord stromal tumor that is slow-growing and malignant; often produces hormones and lead to high estrogen levels. It can cause early puberty, irregular periods or bleeding after menopause.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://my.clevelandclinic.org/health/diseases/24245-granulosa-cell-tumor#:~:text=A%20granulosa%20cell%20tumor%20(GCT,of%20the%20female%20sex%20hormones.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cancer.gov/publications/dictionaries/cancer-terms/def/granulosa-cell-tumor</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5063189/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T13:10:33Z</dc:date>
+        <rdfs:label>granulosa cell tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001158"/>
+        <obo:IAO_0000115>An ovarian sex cord stromal tumor in which the tumor cells secrete testosterone, a male sex hormone; often produces hirsutism and virilization. Also called androblastoma and arrhenoblastoma.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://medlineplus.gov/ency/article/001172.htm#:~:text=Sertoli%2DLeydig%20cell%20tumor%20(SLCT,male%20sex%20hormone%20called%20testosterone.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cancer.gov/publications/dictionaries/cancer-terms/def/sertoli-leydig-cell-tumor-of-the-ovary#:~:text=(ser%2DTOH%2Dlee%2D,Also%20called%20androblastoma%20and%20arrhenoblastoma.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5063189/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T13:11:27Z</dc:date>
+        <rdfs:label>sertoli-leydig tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001158"/>
+        <obo:IAO_0000115>An ovarian sex cord stromal tumor that is composed of a mixture of two cellular population, Sertoli cells and granulosa cells, with the latter constituting at least ten percent of the neoplasm. Ussually produce either estrogenic or androgenic manifestations.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/medgen/83412</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5063189/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T13:13:20Z</dc:date>
+        <rdfs:label>gynandroblastoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000119>https://ar.iiarjournals.org/content/34/12/7303</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:01:46Z</dc:date>
+        <rdfs:label>ovarian sarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:02:29Z</dc:date>
+        <rdfs:label>krukenberg tumor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:02:45Z</dc:date>
+        <rdfs:label>ovarian cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001162"/>
+        <obo:IAO_0000119>https://ar.iiarjournals.org/content/34/12/7303</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:08:04Z</dc:date>
+        <rdfs:label>ovarian carcinosarcoma</rdfs:label>
     </owl:Class>
     
 
