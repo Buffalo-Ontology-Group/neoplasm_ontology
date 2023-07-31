@@ -2034,7 +2034,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
-        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the cancer is only in the ovary (or ovaries) or fallopian tube(s).</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian cancer stage by TNM staging in which the cancer is only in the ovary (or ovaries) or fallopian tube(s).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:37:13Z</dc:date>
@@ -2047,7 +2047,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
-        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one ovary, and the tumor is confined to the inside of the ovary; or the cancer is in one fallopian tube, and is only inside the fallopian tube. There is no cancer on the outer surfaces of the ovary or fallopian tube. There are no cancer cells in the fluid (ascites) or washings from the abdomen and pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian cancer stage by TNM staging in which the ovarian cancer is in one ovary, and the tumor is confined to the inside of the ovary.There is no cancer on the outer surfaces of the ovary or fallopian tube. There is no cancer on the outer surfaces of the ovary or fallopian tube. There are no cancer cells in the fluid (ascites) or washings from the abdomen and pelvis.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:49Z</dc:date>
@@ -2061,7 +2061,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
         <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the</obo:IAO_0000115>
-        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in both ovaries or fallopian tubes but not on their outer surfaces. No cancer cells are found in the fluid (ascites) or washings from the abdomen and pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian cancer stage by TNM staging in which the ovarian cancer is in both ovaries or fallopian tubes but not on their outer surfaces. No cancer cells are found in the fluid (ascites) or washings from the abdomen and pelvis.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:26:59Z</dc:date>
@@ -2074,7 +2074,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
-        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the ovarian cancer is in one or both ovaries or fallopian tubes and in the tissue (capsule) surrounding the tumor broke during surgery, which could allow cancer cells to leak into the abdomen and pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000115>An ovarian cancer stage by TNM staging in which the ovarian cancer is in one or both ovaries or fallopian tubes and in the tissue (capsule) surrounding the tumor broke during surgery, which could allow cancer cells to leak into the abdomen and pelvis.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-26T17:27:08Z</dc:date>
@@ -2087,7 +2087,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001126"/>
-        <obo:IAO_0000115>Ovarian cancer stage by TNM staging in which the cancer is in one or both ovaries or fallopian tubes and has spread to other organs (such as the uterus, bladder, the sigmoid colon, or the rectum) within the pelvis or there is primary peritoneal cancer.</obo:IAO_0000115>
+        <obo:IAO_0000115>An pvarian cancer stage by TNM staging in which the cancer is in one or both ovaries or fallopian tubes and has spread to other organs (such as the uterus, bladder, the sigmoid colon, or the rectum) within the pelvis or there is primary peritoneal cancer.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/detection-diagnosis-staging/staging.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-24T19:27:41Z</dc:date>
@@ -2500,10 +2500,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
-        <obo:IAO_0000119>https://ar.iiarjournals.org/content/34/12/7303</obo:IAO_0000119>
+        <obo:IAO_0000115>An ovarian neoplasm that is a mixed mullerian tumors of the ovary that includes cells that have features of stroma and cells that have features of epithelium.  It is classified as a cancer  that is a rare and aggressive variant of an epithelial carcinoma, comprising 1-4% of ovarian cancer cases. Are most often diagnosed in postmenopausal women.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://ocrahope.org/get-the-facts/about-ovarian-cancer/non-epithelial-gynecologic-cancers/#rare-subtypes</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:01:46Z</dc:date>
-        <rdfs:label>ovarian sarcoma</rdfs:label>
+        <rdfs:label>ovarian carcinosarcoma</rdfs:label>
     </owl:Class>
     
 
@@ -2512,6 +2513,8 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000115>An ovarian neoplasm that is a metastatic malignancy of the ovary characterized by mucin-rich signet-ring adenocarcinoma that primarily arises from a gastrointestinal site in most cases and less commonly from other sites. Often this tumor is bilateral, given their metastatic nature.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK482284/#:~:text=Krukenberg%20tumor%20is%20a%20metastatic,likely%20through%20the%20lymphatic%20channels.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:02:29Z</dc:date>
         <rdfs:label>krukenberg tumor</rdfs:label>
@@ -2523,6 +2526,8 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000115>An ovarian neoplasm that is a cyst (containing fluid) inside an ovary. Most ovarian cyst occur as a normal part of the process of ovulation.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.org/cancer/types/ovarian-cancer/about/what-is-ovarian-cancer.html#:~:text=Benign%20epithelial%20ovarian%20tumors,mucinous%20cystadenomas%2C%20and%20Brenner%20tumors.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:02:45Z</dc:date>
         <rdfs:label>ovarian cyst</rdfs:label>
@@ -2533,11 +2538,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001162"/>
-        <obo:IAO_0000119>https://ar.iiarjournals.org/content/34/12/7303</obo:IAO_0000119>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
+        <obo:IAO_0000115>An ovarian neoplasm that is a very rare, highly malignant tumor, that it is not certain whether the cells are from ovarian epithelial cells, sex-cord stromal cells or germ cells. SCCO accounts for 0.1 percent of ovarian cancer cases.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://ocrahope.org/get-the-facts/about-ovarian-cancer/non-epithelial-gynecologic-cancers/#rare-subtypes</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-27T14:08:04Z</dc:date>
-        <rdfs:label>ovarian carcinosarcoma</rdfs:label>
+        <rdfs:label>small cell carcinoma of the ovary</rdfs:label>
     </owl:Class>
     
 
@@ -2710,6 +2716,294 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NPO_0001180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001179"/>
+        <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:42:50Z</dc:date>
+        <rdfs:label>stage IVA ovarian cancer by AJCC stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001179"/>
+        <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:31:37Z</dc:date>
+        <rdfs:label>stage IVB ovarian cancer by AJCC stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T22:21:39Z</dc:date>
+        <rdfs:label>ovarian cancer stage by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:29:11Z</dc:date>
+        <rdfs:label>stage I ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001183"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:29:42Z</dc:date>
+        <rdfs:label>stage IA ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001183"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:00Z</dc:date>
+        <rdfs:label>stage IB ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001183"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:22Z</dc:date>
+        <rdfs:label>stage IC ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001186"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:58Z</dc:date>
+        <rdfs:label>stage IC1 ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001186"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:31:12Z</dc:date>
+        <rdfs:label>stage IC2 ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001186"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:31:40Z</dc:date>
+        <rdfs:label>stage IC3 ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:32:39Z</dc:date>
+        <rdfs:label>stage II ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001190"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:33:19Z</dc:date>
+        <rdfs:label>stage IIA ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001190"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:33:35Z</dc:date>
+        <rdfs:label>stage IIB ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:36:08Z</dc:date>
+        <rdfs:label>stage III ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:36:37Z</dc:date>
+        <rdfs:label>stage IIIA ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001194"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:37:18Z</dc:date>
+        <rdfs:label>stage IIIA1 ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001194"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:39:54Z</dc:date>
+        <rdfs:label>stage IIIA2 ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001195"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:04Z</dc:date>
+        <rdfs:label>stage IIIA1 (i) ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001195"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:20Z</dc:date>
+        <rdfs:label>stage IIIA1 (ii) ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:29Z</dc:date>
+        <rdfs:label>stage IIIB ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:47Z</dc:date>
+        <rdfs:label>stage IIIC ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:43:42Z</dc:date>
+        <rdfs:label>stage IV ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001201"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:02Z</dc:date>
+        <rdfs:label>stage IVA ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001201"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:20Z</dc:date>
+        <rdfs:label>stage IVB ovarian cancer by FIGO stage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000078 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000078">
@@ -2728,294 +3022,6 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
             </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#ovarian_cancer_stage_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#ovarian_cancer_stage_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T22:21:39Z</dc:date>
-        <rdfs:label>ovarian cancer stage by FIGO staging</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IA_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IA_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_I_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:29:42Z</dc:date>
-        <rdfs:label>stage IA ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IB_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IB_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_I_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:00Z</dc:date>
-        <rdfs:label>stage IB ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IC1_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IC1_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IC_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:58Z</dc:date>
-        <rdfs:label>stage IC1 ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IC2_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IC2_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IC_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:31:12Z</dc:date>
-        <rdfs:label>stage IC2 ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IC3_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IC3_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IC_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:31:40Z</dc:date>
-        <rdfs:label>stage IC3 ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IC_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IC_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_I_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:22Z</dc:date>
-        <rdfs:label>stage IC ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIA_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIA_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_II_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:33:19Z</dc:date>
-        <rdfs:label>stage IIA ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIB_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIB_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_II_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:33:35Z</dc:date>
-        <rdfs:label>stage IIB ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:37:18Z</dc:date>
-        <rdfs:label>stage IIIA1 ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIA2_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA2_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:39:54Z</dc:date>
-        <rdfs:label>stage IIIA2 ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIA_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_III_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:36:37Z</dc:date>
-        <rdfs:label>stage IIIA ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIB_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIB_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_III_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:29Z</dc:date>
-        <rdfs:label>stage IIIB ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIC_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIC_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_III_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:47Z</dc:date>
-        <rdfs:label>stage IIIC ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_III_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_III_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#ovarian_cancer_stage_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:36:08Z</dc:date>
-        <rdfs:label>stage III ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_II_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_II_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#ovarian_cancer_stage_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:32:39Z</dc:date>
-        <rdfs:label>stage II ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IVA_ovarian_cancer_by_AJCC_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IVA_ovarian_cancer_by_AJCC_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001179"/>
-        <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:42:50Z</dc:date>
-        <rdfs:label>stage IVA ovarian cancer by AJCC stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IVA_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IVA_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IV_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:02Z</dc:date>
-        <rdfs:label>stage IVA ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IVB_ovarian_cancer_by_AJCC_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IVB_ovarian_cancer_by_AJCC_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001179"/>
-        <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:31:37Z</dc:date>
-        <rdfs:label>stage IVB ovarian cancer by AJCC stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IVB_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IVB_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IV_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:20Z</dc:date>
-        <rdfs:label>stage IVB ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IV_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IV_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#ovarian_cancer_stage_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:43:42Z</dc:date>
-        <rdfs:label>stage IV ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_I_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_I_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#ovarian_cancer_stage_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:29:11Z</dc:date>
-        <rdfs:label>stage I ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1(i)_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1(i)_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:04Z</dc:date>
-        <rdfs:label>stage IIIA1 (i) ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1(ii)_ovarian_cancer_by_FIGO_stage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1(ii)_ovarian_cancer_by_FIGO_stage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/npo.owl#stage_IIIA1_ovarian_cancer_by_FIGO_stage"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:20Z</dc:date>
-        <rdfs:label>stage IIIA1 (ii) ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
 </rdf:RDF>
 
 
