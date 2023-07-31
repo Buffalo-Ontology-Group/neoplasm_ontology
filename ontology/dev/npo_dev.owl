@@ -497,10 +497,22 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001127"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001127"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001137"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001139"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A clinical finding that is about ovarian cancer.</obo:IAO_0000115>
         <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
@@ -2552,7 +2564,9 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer based in the American Joint Committee on Cancer that stages the cancer based on an anatomic staging method, which uses primary tumor (T) size, lymph nodes (N) involvement, and metastasis (M) based on clinical and pathological evaluations.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8246053/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:37:09Z</dc:date>
         <rdfs:label>ovarian cancer stage by AJCC staging</rdfs:label>
@@ -2564,10 +2578,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001166"/>
+        <obo:IAO_0000115>An ovarian cancer stage by AJCC staging in which the cancer is confined to the ovary (or ovaries), or the fallopian tubes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:39:46Z</dc:date>
-        <rdfs:label>stage I ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage I ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2576,10 +2591,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001167"/>
+        <obo:IAO_0000115>A stage I ovarian cancer by AJCC staging in which the cancer is only in one ovary and is confined within the ovary, or cancer is only in one fallopian tube and is confined within the fallopian tube.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:00:58Z</dc:date>
-        <rdfs:label>stage IA ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IA ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2588,10 +2604,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001167"/>
+        <obo:IAO_0000115>A stage I ovarian cancer by AJCC staging in which the cancer is in both ovaries or both fallopian tubes but not found on the outer surfaces.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:01:17Z</dc:date>
-        <rdfs:label>stage IB ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IB ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2600,10 +2617,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001167"/>
+        <obo:IAO_0000115>A stage I ovarian cancer by AJCC staging in which the cancer is in one or both ovaries or fallopian tubes, and either the tumor lining is disrupted during surgery (1C1); or cancer is found on the outer surface of ovary or fallopian tube, (1C2); or cancer is found in fluid (a condition called ascites) or washings from the abdomen or pelvis (1C3).</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:01:32Z</dc:date>
-        <rdfs:label>stage IC ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IC ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2612,10 +2630,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001166"/>
+        <obo:IAO_0000115>An ovarian cancer stage by AJCC staging in which the cancer is found in one or both ovaries or fallopian tubes and has spread to other areas of the pelvis, or it is a primary peritoneal cancer that is confined to the pelvis.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:40:08Z</dc:date>
-        <rdfs:label>stage II ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage II ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2624,10 +2643,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001171"/>
+        <obo:IAO_0000115>A stage II ovarian cancer by AJCC staging in which the cancer has spread to, or into, the uterus.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:09:43Z</dc:date>
-        <rdfs:label>stage IIA ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IIA ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2636,10 +2656,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001171"/>
+        <obo:IAO_0000115>A stage II ovarian cancer by AJCC staging in which the cancer is found in other sites in the pelvis but not beyond the pelvis.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:10:03Z</dc:date>
-        <rdfs:label>stage IIB ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IIB ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2648,10 +2669,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001166"/>
+        <obo:IAO_0000115>An ovarian cancer stage by AJCC staging in which the cancer is found in one or both ovaries and has spread outside the pelvis to other parts of the abdomen and/or nearby the lymph nodes; it is also considered stage III ovarian cancer when it has spread to the surface of the liver.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:59:41Z</dc:date>
-        <rdfs:label>stage III ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage III ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2660,10 +2682,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001174"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by AJCC staging in which the cancer involves the ovaries, fallopian tubes, or may be primary peritoneal cancer that involves pelvic or para-aortic lymph nodes without spread to other sites in the abdomen or pelvis.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:40:46Z</dc:date>
-        <rdfs:label>stage IIIA1 ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IIIA1 ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2672,10 +2695,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001174"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by AJCC staging in which the cancer is in one or both ovaries or fallopian tubes, or is a primary peritoneal cancer, with evidence of microscopic implants beyond the pelvic region. The cancer may also have spread to pelvic or para-aortic lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:26:51Z</dc:date>
-        <rdfs:label>stage IIIA2 ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IIIA2 ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2684,10 +2708,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001174"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by AJCC staging in which the cancer is in one or both ovaries or fallopian tubes, or is a primary peritoneal cancer, and it has spread to the organs outside the pelvic region, but the cancer deposits are no larger than 2cm. The cancer may also have spread to the pelvic or para-aortic lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:28:46Z</dc:date>
-        <rdfs:label>stage IIIB ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IIIB ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2696,10 +2721,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001174"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by AJCC staging in which the cancer is in one or both ovaries or fallopian tubes, or is a primary peritoneal cancer, and it has spread to the organs outside the pelvic region with deposits larger than 2cm. The cancer may also have spread to the pelvic or para-aortic lymph nodes, or to the surface of the liver or spleen.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:29:07Z</dc:date>
-        <rdfs:label>stage IIIC ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IIIC ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2708,10 +2734,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001166"/>
+        <obo:IAO_0000115>An ovarian cancer stage by AJCC staging in which the cancer has spread to the lungs or to the inner part of the liver, or to the other distant sites. Cancer cells in the pleura (fluid around the lungs) is also considered stage 4 ovarian cancer.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:58:44Z</dc:date>
-        <rdfs:label>stage IV ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IV ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2720,10 +2747,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001179"/>
+        <obo:IAO_0000115>An ovarian cancer stage by AJCC staging in which the cancer cells are present in the fluid around the lungs ( malignant pleural effusion) but have not spread to other areas such as the spleen, liver, or lymph nodes that are not in the abdomen.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T20:42:50Z</dc:date>
-        <rdfs:label>stage IVA ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IVA ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2732,10 +2760,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001179"/>
+        <obo:IAO_0000115>A stage IV ovarian cancer by AJCC staging in which the cancer is seen inside the spleen or liver, in lymph nodes outside the abdomen or pelvis, and/or in other sites outside the peritoneal cavity.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T21:31:37Z</dc:date>
-        <rdfs:label>stage IVB ovarian cancer by AJCC stage</rdfs:label>
+        <rdfs:label>stage IVB ovarian cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
@@ -2744,7 +2773,9 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer based in The International Federation of Gynecology and Obstetrics (FIGO) in which the doctors assign the stage of the cancer by evaluating the tumor and metastasis. The staging is based on the results of a physical exam, imaging scans, and biopsies.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cancer.net/cancer-types/cervical-cancer/stages#:~:text=FIGO%20stages%20for%20cervical%20cancer,%2C%20imaging%20scans%2C%20and%20biopsies.</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T22:21:39Z</dc:date>
         <rdfs:label>ovarian cancer stage by FIGO staging</rdfs:label>
@@ -2756,10 +2787,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000115>An ovarian cancer stage by FIGO staging in which the cancer tumor is confined to ovaries or fallopian tube(s).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:29:11Z</dc:date>
-        <rdfs:label>stage I ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage I ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2768,10 +2800,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001183"/>
+        <obo:IAO_0000115>A stage I ovarian cancer by FIGO staging in which the tumor is limited to one ovary (capsule intact) or fallopian tube, there is no tumor on ovarian or fallopian tube surface and there are no malignant cells in the ascites or peritoneal washings.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:29:42Z</dc:date>
-        <rdfs:label>stage IA ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IA ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2780,10 +2813,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001183"/>
+        <obo:IAO_0000115>A stage I ovarian cancer by FIGO staging in which the tumor is limited to both ovaries (capsules intact) or fallopian tubes, there is no tumor on ovarian or fallopian tube surface and there are no malignant cells in the ascites or peritoneal washings.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:00Z</dc:date>
-        <rdfs:label>stage IB ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IB ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2792,10 +2826,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001183"/>
+        <obo:IAO_0000115>A stage I ovarian cancer by FIGO staging in which the tumor is limited to one or both ovaries or fallopian tubes, with at least one of the followings: a surgical spill, a capsule ruptured before surgery or tumor on ovarian or fallopian tube surface, or malignant cells in the ascites or peritoneal washings.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:22Z</dc:date>
-        <rdfs:label>stage IC ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IC ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2804,10 +2839,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001186"/>
+        <obo:IAO_0000115>A stage IC ovarian cancer by FIGO staging in which the tumor is limited to one or both ovaries or fallopian tubes, with a surgical spill.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:30:58Z</dc:date>
-        <rdfs:label>stage IC1 ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IC1 ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2816,10 +2852,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001186"/>
+        <obo:IAO_0000115>A stage IC ovarian cancer by FIGO staging in which the tumor is limited to one or both ovaries or fallopian tubes, with a capsule rupture before surgery or the tumor is on the ovarian or fallopian tube surface.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:31:12Z</dc:date>
-        <rdfs:label>stage IC2 ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IC2 ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2828,10 +2865,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001186"/>
+        <obo:IAO_0000115>A stage IC ovarian cancer by FIGO staging in which the tumor is limited to one or both ovaries or fallopian tubes and there are malignant cells in the ascites or peritoneal washings.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:31:40Z</dc:date>
-        <rdfs:label>stage IC3 ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IC3 ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2840,10 +2878,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000115>An ovarian cancer stage by FIGO staging in which the cancer tumor involves one or both ovaries or fallopian tubes with a pelvic extension (below pelvic brim) or a primary peritoneal cancer.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:32:39Z</dc:date>
-        <rdfs:label>stage II ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage II ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2852,10 +2891,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001190"/>
+        <obo:IAO_0000115>A stage II ovarian cancer by FIGO staging in which the cancer tumor involves one or both ovaries or fallopian tubes with a pelvic extension and/or implants on: uterus, fallopian tubes,  ovaries or a primary peritoneal cancer.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:33:19Z</dc:date>
-        <rdfs:label>stage IIA ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IIA ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2864,10 +2904,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001190"/>
+        <obo:IAO_0000115>A stage II ovarian cancer by FIGO staging in which the cancer tumor involves one or both ovaries or fallopian tubes with a pelvic extension to other pelvic intraperitoneal tissue or a primary peritoneal cancer.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:33:35Z</dc:date>
-        <rdfs:label>stage IIB ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IIB ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2876,10 +2917,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000115>An ovarian cancer stage by FIGO staging in which the cancer tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a cytologically or histologically confirmed spread to the peritoneum outside the pelvis and/or metastasis to the retroperitoneal lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:36:08Z</dc:date>
-        <rdfs:label>stage III ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage III ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2888,10 +2930,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by FIGO staging in which the tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a metastasis to the retroperitoneal lymph nodes only.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:36:37Z</dc:date>
-        <rdfs:label>stage IIIA ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:37:18Z</dc:date>
+        <rdfs:label>stage IIIA1 ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2899,11 +2942,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001194"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by FIGO staging in which the tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a microscopic extrapelvic (above the pelvic brim) peritoneal involvement with or without positive retroperitoneal lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:37:18Z</dc:date>
-        <rdfs:label>stage IIIA1 ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:39:54Z</dc:date>
+        <rdfs:label>stage IIIA2 ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2912,10 +2956,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001194"/>
+        <obo:IAO_0000115>A stage IIIA1 ovarian cancer by FIGO staging in which the tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a metastasis to the retroperitoneal lymph nodes only. The metastasis is up to 10 mm in greatest dimension.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:39:54Z</dc:date>
-        <rdfs:label>stage IIIA2 ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:04Z</dc:date>
+        <rdfs:label>stage IIIA1 (i) ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2923,11 +2968,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001194"/>
+        <obo:IAO_0000115>A stage IIIA1 ovarian cancer by FIGO staging in which the tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a metastasis to the retroperitoneal lymph nodes only. The metastasis more than 10 mm in greatest dimension.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:04Z</dc:date>
-        <rdfs:label>stage IIIA1 (i) ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:20Z</dc:date>
+        <rdfs:label>stage IIIA1 (ii) ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2935,11 +2981,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by FIGO staging in which the tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a macroscopic peritoneal metastasis beyond the pelvis up to 2 cm in greatest dimension, with or without metastasis to the retroperitoneal lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:38:20Z</dc:date>
-        <rdfs:label>stage IIIA1 (ii) ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:29Z</dc:date>
+        <rdfs:label>stage IIIB ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2948,10 +2995,11 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <obo:IAO_0000115>A stage III ovarian cancer by FIGO staging in which the tumor involves one or both ovaries or fallopian tubes, or primary peritoneal cancer, with a macroscopic peritoneal metastasis beyond the pelvis more than 2 cm in greatest dimension, with or without metastasis to the retroperitoneal lymph nodes (includes extension of tumor to capsule of liver and spleen without parenchymal involvement of either organ).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:29Z</dc:date>
-        <rdfs:label>stage IIIB ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:47Z</dc:date>
+        <rdfs:label>stage IIIC ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2959,11 +3007,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001193"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <obo:IAO_0000115>An ovarian cancer stage by FIGO staging in which the cancer has done distant metastasis excluding peritoneal metastases.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:40:47Z</dc:date>
-        <rdfs:label>stage IIIC ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:43:42Z</dc:date>
+        <rdfs:label>stage IV ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2971,11 +3020,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001200"/>
+        <obo:IAO_0000115>A stage IV ovarian cancer by FIGO staging in which the cancer has done distant metastasis excluding peritoneal metastases with a positive pleural effusion cytology.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:43:42Z</dc:date>
-        <rdfs:label>stage IV ovarian cancer by FIGO stage</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:02Z</dc:date>
+        <rdfs:label>stage IVA ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
@@ -2983,23 +3033,12 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <!-- http://purl.obolibrary.org/obo/NPO_0001202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001201"/>
-        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
-        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:02Z</dc:date>
-        <rdfs:label>stage IVA ovarian cancer by FIGO stage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NPO_0001203 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001201"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001200"/>
+        <obo:IAO_0000115>A stage IV ovarian cancer by FIGO staging in which the cancer has done distant metastasis excluding peritoneal metastases but incluiding the parenchymal metastases and metastases to the extra-abdominal organs.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4397237/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-30T23:44:20Z</dc:date>
-        <rdfs:label>stage IVB ovarian cancer by FIGO stage</rdfs:label>
+        <rdfs:label>stage IVB ovarian cancer by FIGO staging</rdfs:label>
     </owl:Class>
     
 
