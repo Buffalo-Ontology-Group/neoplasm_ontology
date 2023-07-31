@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl" uri="http://purl.obolibrary.org/obo/iao.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/pato_robot_individuals_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ccl/releases/2017-11-15/ccl.owl" uri="imports/CCL_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibary.org/obo/npo/disease_ontology_import.owl" uri="imports/disease_ontology_import.owl"/>
