@@ -3428,11 +3428,124 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115>A clinical finding based on clinicopathologic evaluation of tumors based on the extent of tumor involvement at the primary site (T, followed by a number indicating size and depth of invasion), and lymph node involvement (N) and metastasis (M) each followed by a number starting at 0 for no evident metastasis; numbers used depend on the organ involved and influence the prognosis and choice of treatment.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.figo.org/#:~:text=Welcome%20to%20FIGO%20(The%20International,gynecologists%20on%20a%20global%20basis.</obo:IAO_0000119>
+        <obo:IAO_0000115>A clinical finding based on The International Federation of Gynecology and Obstetrics that uses a staging system  to primarily stage gynecological cancers, particularly those affecting the female reproductive organs. It provides a standardized way to categorize the extent of cancer spread.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://training.seer.cancer.gov/staging/systems/schemes/figo.html</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T03:51:56Z</dc:date>
         <rdfs:label>cancer stage by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001225"/>
+        <obo:IAO_0000115>A cancer stage by FIGO staging in wich the carcinoma is in situ. The cancerous cells has not invaded nearby tussues.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://training.seer.cancer.gov/staging/systems/schemes/figo.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T15:19:47Z</dc:date>
+        <rdfs:label>stage 0 cancer by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001225"/>
+        <obo:IAO_0000115>A cancer stage by FIGO staging in wich the cancer tumor is confined to the organ of origin but may has invaded deeper tissues in the organ. The cancerous cells has not invaded nearby tussues.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://training.seer.cancer.gov/staging/systems/schemes/figo.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T15:20:13Z</dc:date>
+        <rdfs:label>stage I cancer by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001225"/>
+        <obo:IAO_0000115>A cancer stage by FIGO staging in wich the cancer tumor has spread to nearby organs or structures within the pelvis.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://training.seer.cancer.gov/staging/systems/schemes/figo.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T15:20:28Z</dc:date>
+        <rdfs:label>stage II cancer by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001225"/>
+        <obo:IAO_0000115>A cancer stage by FIGO staging in wich the cancer tumor has spread to nearby organs and the cancer may involve the pelvic and/or para-aortic lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://training.seer.cancer.gov/staging/systems/schemes/figo.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T15:20:57Z</dc:date>
+        <rdfs:label>stage III cancer by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001225"/>
+        <obo:IAO_0000115>A cancer stage by FIGO staging in wich the cancer has spread to distant organs.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://training.seer.cancer.gov/staging/systems/schemes/figo.html</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T15:21:09Z</dc:date>
+        <rdfs:label>stage IV cancer by FIGO staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001224"/>
+        <obo:IAO_0000115>A cancer stage by AJCC staging in wich the cancer tumor is small and localized to the origin organ, there is no lymph node involvement and it has not spread to distant organs or tissue.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T17:21:59Z</dc:date>
+        <rdfs:label>stage I cancer by AJCC staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001224"/>
+        <obo:IAO_0000115>A cancer stage by AJCC staging in wich the cancer tumor is larger than stage I cancer or it has invaded nearby tissues, there is no lymph node involvement and it has no distant metastasis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T17:24:07Z</dc:date>
+        <rdfs:label>stage II cancer by AJCC staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001224"/>
+        <obo:IAO_0000115>A cancer stage by AJCC staging in wich the cancer tumor has invaded nearby tissues or organs, has spread to nearby lymph nodes but it has not spread to distant organs or tissue.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T17:24:21Z</dc:date>
+        <rdfs:label>stage III cancer by AJCC staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001224"/>
+        <obo:IAO_0000115>A cancer stage by AJCC staging in wich the cancer tumor has invaded nearby tissues or organs, it has spread to distant lymph nodes and it has metastasized to distant organs or tissue.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T17:24:39Z</dc:date>
+        <rdfs:label>stage IV cancer by AJCC staging</rdfs:label>
     </owl:Class>
     
 
