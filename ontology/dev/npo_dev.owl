@@ -2623,6 +2623,24 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001166"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001231"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An ovarian cancer stage by AJCC staging in which the cancer is confined to the ovary (or ovaries), or the fallopian tubes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ocrahope.org/get-the-facts/staging/</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
@@ -2837,12 +2855,6 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001182"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001227"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_AJCC_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001167"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
