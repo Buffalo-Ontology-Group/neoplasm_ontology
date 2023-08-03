@@ -151,61 +151,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_037130db_a6da_489f_9f44_681b68d99fca -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_037130db_a6da_489f_9f44_681b68d99fca">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_e7364b42_1ffa_448f_847a_b3cbbcd25715"/>
-        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:42:05Z</dc:date>
-        <rdfs:label>T0 cancer stage by TNM staging</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_289269db_8cbe_483e_9808_c17c4b898962 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_289269db_8cbe_483e_9808_c17c4b898962">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_e7364b42_1ffa_448f_847a_b3cbbcd25715"/>
-        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:42:36Z</dc:date>
-        <rdfs:label>T1 cancer stage by TNM staging</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_571567f0_7221_4e4d_8c83_200834605658 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_571567f0_7221_4e4d_8c83_200834605658">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:31:13Z</dc:date>
-        <rdfs:label>clinical finding about cancer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_e7364b42_1ffa_448f_847a_b3cbbcd25715 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_e7364b42_1ffa_448f_847a_b3cbbcd25715">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:31:47Z</dc:date>
-        <rdfs:label>cancer stage by TNM staging</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_162 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_162">
@@ -554,7 +499,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_571567f0_7221_4e4d_8c83_200834605658"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NPO_0001208"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
@@ -562,7 +507,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_571567f0_7221_4e4d_8c83_200834605658"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001208"/>
         <obo:IAO_0000115>A clinical finding that is about ovarian cancer.</obo:IAO_0000115>
         <obo:IAO_0000117>Yeriane Y. Delgado Muniz (ORCID ID: 0009-0005-5662-2241)</obo:IAO_0000117>
         <rdfs:label>clinical finding about ovarian cancer</rdfs:label>
@@ -2084,7 +2029,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_e7364b42_1ffa_448f_847a_b3cbbcd25715"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NPO_0001209"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4984"/>
@@ -2093,7 +2038,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001000"/>
-        <obo:IAO_0000115>A clinical finding based on clinicopathologic evaluation of tumors based on the extent of tumor involvement at the primary site (T, followed by a number indicating size and depth of invasion), and lymph node involvement (N) and metastasis (M) each followed by a number starting at 0 for no evident metastasis; numbers used depend on the organ involved and influence the prognosis and choice of treatment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A clinical finding about ovarian cancer that is based on clinicopathologic evaluation of tumors based on the extent of tumor involvement at the primary site (T, followed by a number indicating size and depth of invasion), and lymph node involvement (N) and metastasis (M) each followed by a number starting at 0 for no evident metastasis; numbers used depend on the organ involved and influence the prognosis and choice of treatment.</obo:IAO_0000115>
         <obo:IAO_0000119>https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;code=C25384&amp;ns=ncit</obo:IAO_0000119>
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-17T20:28:33Z</dc:date>
@@ -2111,7 +2056,7 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NPO_0001126"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/npo.owl#has_TNM_stage"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_289269db_8cbe_483e_9808_c17c4b898962"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0001211"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3217,6 +3162,277 @@ A “tissue” disorder that “has” resulted from a dysregulation of cell pro
         <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:06:06Z</dc:date>
         <rdfs:label>T1c3 ovarian cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001208">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NPO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding that is about cancer.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:31:13Z</dc:date>
+        <rdfs:label>clinical finding about cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding about a cancer that indicates the staging of the disease due to the grade of the tumor, nodes, and metastasis.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:31:47Z</dc:date>
+        <rdfs:label>cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the main tumor cannot be found.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:42:05Z</dc:date>
+        <rdfs:label>T0 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates a relatively small and localized tumor in the primary site, it often means that the cancer has not invaded nearby tissues or has spread to the regional lymph nodes. There are sizes, spredding and extenssion differences depending in the type of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-9990-8331"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-31T20:42:36Z</dc:date>
+        <rdfs:label>T1 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates a larger primary tumor in comparission to T1, but it still a localized growth without extensive invasion into surrounding tissues. There are sizes, spredding and extenssion differences depending in the type of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:49:42Z</dc:date>
+        <rdfs:label>T2 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates a larger and more extensive primary tumor compared to T2, that may have or have not spread to nerby tissues or organs. There are sizes, spredding and extenssion differences depending in the type of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:49:28Z</dc:date>
+        <rdfs:label>T3 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates a larger and more invasive primary tumor compared to T3. The tumor has typically grown out of its origin site and has invaded nearby tissues and organs. There are sizes, spredding and extenssion differences depending in the type of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:51:28Z</dc:date>
+        <rdfs:label>T4 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the main tumor cannot be measured.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:48:43Z</dc:date>
+        <rdfs:label>TX cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the cancer in nearby lymph nodes can not be measured.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:53:10Z</dc:date>
+        <rdfs:label>NX cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that there is no cancer in nearby lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:53:28Z</dc:date>
+        <rdfs:label>N0 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the cancer has spread to nearby regional lymph nodes. This staging deffinition can vary deppending the cancer type.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:53:45Z</dc:date>
+        <rdfs:label>N1 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the cancer has spread to a greater number of regional lymph nodes than N1 stage, indicating more lymph node involvement. This staging deffinition can vary deppending the cancer type.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:54:03Z</dc:date>
+        <rdfs:label>N2 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates an extensive regional lymph node involvement due that it has spread to a significant number of nearby regional lymph nodes, often in multiple areas or locations deppending the cancer type.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:54:20Z</dc:date>
+        <rdfs:label>N3 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the cancer metastasis cannot be measured.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:55:17Z</dc:date>
+        <rdfs:label>MX cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the cancer has not spread to other parts of the body.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:55:39Z</dc:date>
+        <rdfs:label>M0 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NPO_0001209"/>
+        <obo:IAO_0000115>A cancer stage by TNM staging that indicates that the cancer has spread to other parts of the body.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.cancer.gov/about-cancer/diagnosis-staging/staging</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK553187/</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T00:55:57Z</dc:date>
+        <rdfs:label>M1 cancer stage by TNM staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding about cancer based in the American Joint Committee on Cancer that stages the cancer based on an anatomic staging method, which uses primary tumor (T) size, lymph nodes (N) involvement, and metastasis (M) based on clinical and pathological evaluations.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.facs.org/quality-programs/cancer-programs/american-joint-committee-on-cancer/cancer-staging-systems/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.healthit.gov/isa/uscdi-data/cancer-staging-ajcc-tnm#:~:text=The%20AJCC%20Cancer%20Staging%20System%20classifies%20cancers%20by%20the%20size,based%20prognostic%20and%20predictive%20factors.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T03:49:12Z</dc:date>
+        <rdfs:label>cancer stage by AJCC staging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NPO_0001225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPO_0001225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding based on clinicopathologic evaluation of tumors based on the extent of tumor involvement at the primary site (T, followed by a number indicating size and depth of invasion), and lymph node involvement (N) and metastasis (M) each followed by a number starting at 0 for no evident metastasis; numbers used depend on the organ involved and influence the prognosis and choice of treatment.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.figo.org/#:~:text=Welcome%20to%20FIGO%20(The%20International,gynecologists%20on%20a%20global%20basis.</obo:IAO_0000119>
+        <dc:creator rdf:resource="https://orcid.org/0009-0005-5662-2241"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-03T03:51:56Z</dc:date>
+        <rdfs:label>cancer stage by FIGO staging</rdfs:label>
     </owl:Class>
     
 
